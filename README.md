@@ -4,8 +4,6 @@ Ranks Maharashtra's 36 districts for industrial investment with a transparent, d
 weighted-scoring model. Describe what you want to build in plain English; the app picks a starting
 industry preset, moves the factor sliders for you, ranks the districts and recolors the map. An optional
 local LLM (Ollama) only narrates pre-computed facts, and every narration is checked for groundedness.
-Full specification: [i-want-you-to-floofy-river.md](i-want-you-to-floofy-river.md). Gate results per phase:
-[STAGE_LOG.md](STAGE_LOG.md).
 
 ## Requirements
 - Python 3.12, Node 24
