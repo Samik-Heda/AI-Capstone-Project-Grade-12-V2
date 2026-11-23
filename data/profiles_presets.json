@@ -1,0 +1,229 @@
+[
+  {
+    "key": "automobile",
+    "name": "Automobile",
+    "weights": {
+      "estates": 0.16,
+      "msme": 0.2,
+      "power": 0.15,
+      "literacy": 0.12,
+      "highway": 0.12,
+      "rail": 0.08,
+      "land": 0.1,
+      "road_density": 0.04,
+      "port": 0.03
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "The auto sector depends on supplier ecosystems (small suppliers, industrial areas), skilled workers and power, plus logistics to ports for exports."
+  },
+  {
+    "key": "electronics",
+    "name": "Electronics",
+    "weights": {
+      "literacy": 0.2,
+      "estates": 0.2,
+      "power": 0.2,
+      "msme": 0.15,
+      "highway": 0.08,
+      "port": 0.05,
+      "land": 0.05,
+      "rail": 0.04,
+      "road_density": 0.03
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Needs skilled workers and stable power above all, plugged into existing industrial areas and import/export links."
+  },
+  {
+    "key": "general_manufacturing",
+    "name": "General Manufacturing",
+    "weights": {
+      "estates": 0.2,
+      "msme": 0.18,
+      "power": 0.14,
+      "highway": 0.1,
+      "rail": 0.08,
+      "port": 0.08,
+      "literacy": 0.07,
+      "water": 0.07,
+      "road_density": 0.05,
+      "land": 0.03
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "A balanced profile: an existing industrial base, power and connectivity. Also covers printing and packaging, which follow the manufacturing base."
+  },
+  {
+    "key": "textile",
+    "name": "Textile & Apparel",
+    "weights": {
+      "msme": 0.2,
+      "power": 0.14,
+      "estates": 0.12,
+      "crop_output": 0.1,
+      "water": 0.1,
+      "rail": 0.08,
+      "land": 0.08,
+      "literacy": 0.06,
+      "highway": 0.06,
+      "road_density": 0.06
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Powerloom and garment clusters are led by small units and are power-hungry; processing needs water; spinning is linked to cotton output."
+  },
+  {
+    "key": "sugar_ethanol",
+    "name": "Sugar & Ethanol",
+    "weights": {
+      "crop_output": 0.3,
+      "irrigation": 0.25,
+      "water": 0.1,
+      "land": 0.08,
+      "power": 0.08,
+      "rail": 0.07,
+      "road_density": 0.07,
+      "estates": 0.05
+    },
+    "constraints": {
+      "requires_industrial_land": true,
+      "min_norm": {
+        "crop_output": 0.25,
+        "irrigation": 0.25
+      }
+    },
+    "rationale": "Mills and distilleries must sit close to irrigated cane fields; cane is bulky, so road and rail haulage matter, and ethanol ships to oil-company depots by rail."
+  },
+  {
+    "key": "dairy",
+    "name": "Dairy",
+    "weights": {
+      "crop_output": 0.22,
+      "irrigation": 0.18,
+      "water": 0.14,
+      "crop_diversity": 0.1,
+      "road_density": 0.1,
+      "power": 0.08,
+      "msme": 0.08,
+      "estates": 0.05,
+      "land": 0.05
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Fodder-rich irrigated farm belts supply milk; chilling needs power and water; collection needs roads."
+  },
+  {
+    "key": "food_beverages",
+    "name": "Food & Beverages",
+    "weights": {
+      "crop_output": 0.22,
+      "crop_diversity": 0.18,
+      "water": 0.13,
+      "irrigation": 0.12,
+      "msme": 0.1,
+      "power": 0.08,
+      "road_density": 0.08,
+      "highway": 0.05,
+      "estates": 0.04
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Diverse, high-output farm supply, plus water (bottling is water-first), power and market access."
+  },
+  {
+    "key": "agro_cold",
+    "name": "Agro & Cold Storage",
+    "weights": {
+      "crop_output": 0.26,
+      "irrigation": 0.17,
+      "crop_diversity": 0.16,
+      "water": 0.13,
+      "land": 0.09,
+      "power": 0.06,
+      "rail": 0.05,
+      "msme": 0.05,
+      "road_density": 0.03
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Primary processing (milling, grading) and cold stores close to production, with power for refrigeration."
+  },
+  {
+    "key": "pharma",
+    "name": "Pharmaceuticals",
+    "weights": {
+      "literacy": 0.22,
+      "water": 0.16,
+      "power": 0.16,
+      "estates": 0.16,
+      "msme": 0.12,
+      "highway": 0.1,
+      "port": 0.08
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Formulation and API plants need a skilled, graduate workforce, clean process water and uninterrupted power, inside existing industrial areas with export links."
+  },
+  {
+    "key": "chemicals",
+    "name": "Chemicals",
+    "weights": {
+      "water": 0.18,
+      "port": 0.18,
+      "estates": 0.16,
+      "power": 0.14,
+      "rail": 0.1,
+      "land": 0.08,
+      "literacy": 0.08,
+      "highway": 0.08
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Chemical units use large volumes of water, import feedstock through ports and must sit in notified chemical zones; bulk inputs move by rail."
+  },
+  {
+    "key": "plastics_rubber",
+    "name": "Plastics & Rubber",
+    "weights": {
+      "power": 0.2,
+      "estates": 0.18,
+      "msme": 0.16,
+      "port": 0.12,
+      "highway": 0.1,
+      "road_density": 0.08,
+      "literacy": 0.08,
+      "land": 0.08
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Moulding, extrusion and tyre plants are power-intensive, sit in large industrial areas near auto makers, and import polymer granules, natural rubber and carbon black through ports."
+  },
+  {
+    "key": "logistics",
+    "name": "Logistics & Warehousing",
+    "weights": {
+      "highway": 0.24,
+      "rail": 0.2,
+      "port": 0.18,
+      "road_density": 0.14,
+      "land": 0.12,
+      "estates": 0.06,
+      "msme": 0.06
+    },
+    "constraints": {
+      "requires_industrial_land": true
+    },
+    "rationale": "Warehousing lives on connectivity: national highways, rail freight and port access, plus affordable land for large sheds."
+  }
+]

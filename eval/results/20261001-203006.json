@@ -1,0 +1,326 @@
+{
+  "timestamp": "2026-10-01 20:30:06",
+  "phase": 4,
+  "gates": [
+    {
+      "phase": 0,
+      "metric": "pytest",
+      "value": "201 passed in 3.22s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 0,
+      "metric": "/health p50 (ms)",
+      "value": 1.67,
+      "target": "< 20",
+      "passed": true,
+      "baseline": "~2000"
+    },
+    {
+      "phase": 0,
+      "metric": "Ollama reachable via 127.0.0.1",
+      "value": "True (http://127.0.0.1:11434)",
+      "target": "true",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 0,
+      "metric": "narration model pulled (qwen2.5:3b-instruct)",
+      "value": true,
+      "target": "true",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "districts seeded",
+      "value": 36,
+      "target": "36",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "norm range",
+      "value": "[0.000, 1.000]",
+      "target": "within [0,1]",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "registry fields with status",
+      "value": "13 {'Sourced': 1, 'Derived': 1, 'Estimated': 11}",
+      "target": "13, all with status",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "port distance centroid source",
+      "value": "polygon",
+      "target": "polygon",
+      "passed": true,
+      "baseline": "HQ town"
+    },
+    {
+      "phase": 1,
+      "metric": "Raigad port norm ≥ Ratnagiri",
+      "value": "1.000 (49.6 km) vs 1.000 (35.1 km)",
+      "target": "Raigad ≥ Ratnagiri",
+      "passed": true,
+      "baseline": "Ratnagiri #1 (1 km)"
+    },
+    {
+      "phase": 1,
+      "metric": "transform/normalization unit tests",
+      "value": "17 passed in 0.17s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "map districts (unique ids)",
+      "value": "36 (36 unique)",
+      "target": "36 unique",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "centroids.csv rows",
+      "value": 36,
+      "target": "36",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 2,
+      "metric": "scoring/API unit tests",
+      "value": "69 passed in 2.11s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 2,
+      "metric": "invalid weights → 422 (neg/NaN/zero/inf/unknown/empty)",
+      "value": "6/6",
+      "target": "all 422",
+      "passed": true,
+      "baseline": "negative accepted (375/100)"
+    },
+    {
+      "phase": 2,
+      "metric": "responses with 36 entries",
+      "value": "28/28",
+      "target": "all",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 2,
+      "metric": "metro ineligible (standard profiles)",
+      "value": "8/8",
+      "target": "8/8",
+      "passed": true,
+      "baseline": "Mumbai #1 auto/electronics"
+    },
+    {
+      "phase": 2,
+      "metric": "stability p95 (ms, N=300)",
+      "value": 1.16,
+      "target": "< 30",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 2,
+      "metric": "/rank p95 (ms)",
+      "value": 6.99,
+      "target": "< 50",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 2,
+      "metric": "strengths with norm < 0.6",
+      "value": "0 of 613 (8 profiles × 36)",
+      "target": "0",
+      "passed": true,
+      "baseline": "bottom-quartile literacy listed"
+    },
+    {
+      "phase": 3,
+      "metric": "profile unit tests",
+      "value": "49 passed in 2.32s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 3,
+      "metric": "mean P@5 (8 standard)",
+      "value": 0.8,
+      "target": "≥ 0.70",
+      "passed": true,
+      "baseline": "0.57"
+    },
+    {
+      "phase": 3,
+      "metric": "min standard P@5",
+      "value": "0.60 (dairy_processing)",
+      "target": "every ≥ 0.60",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 3,
+      "metric": "mean hit@10 (8 standard)",
+      "value": 0.969,
+      "target": "≥ 0.90",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 3,
+      "metric": "GT-backed preset P@5",
+      "value": "pharma 0.80 chemicals 0.60 logistics 0.60 ethanol 0.60 apparel 0.60",
+      "target": "each ≥ 0.60",
+      "passed": true,
+      "baseline": "steel preset 0.0"
+    },
+    {
+      "phase": 3,
+      "metric": "distinctness (mean pairwise ρ)",
+      "value": 0.9073,
+      "target": "≤ 0.92",
+      "passed": true,
+      "baseline": "0.967"
+    },
+    {
+      "phase": 3,
+      "metric": "dominance (max top-5 appearances)",
+      "value": "8 of 8 (Nashik 8, Pune 8)",
+      "target": "≤ 7",
+      "passed": false,
+      "baseline": "Mumbai #1 auto/electronics"
+    },
+    {
+      "phase": 3,
+      "metric": "max preset pairwise cosine",
+      "value": "0.944 (apparel/packaging)",
+      "target": "< 0.95",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 3,
+      "metric": "profiles with a rationale",
+      "value": "18/18",
+      "target": "all",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 3,
+      "metric": "resource-bound presets",
+      "value": 0,
+      "target": "0",
+      "passed": true,
+      "baseline": "steel preset"
+    },
+    {
+      "phase": 4,
+      "metric": "language/session unit tests",
+      "value": "61 passed in 2.07s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "embedding tier ready (calibrated τ/δ)",
+      "value": "True (462 exemplars, τ=0.62, δ=0.05)",
+      "target": "true",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "intent accuracy (held-out 113 of 161 rows)",
+      "value": "0.947 (calib split 0.938)",
+      "target": "≥ 0.92",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "modifier micro-F1",
+      "value": "1.000 (tp 39, fp 0, fn 0)",
+      "target": "≥ 0.92",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "negation pass",
+      "value": "11/11",
+      "target": "100%",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "adversarial FP (16 rows)",
+      "value": "1: ['transport company for parcels']",
+      "target": "0",
+      "passed": false,
+      "baseline": "carpets→auto, important→port"
+    },
+    {
+      "phase": 4,
+      "metric": "clarify recall",
+      "value": "13/13",
+      "target": "100%",
+      "passed": true,
+      "baseline": "unknown → silent general"
+    },
+    {
+      "phase": 4,
+      "metric": "conversation scripts",
+      "value": "10/10",
+      "target": "10/10",
+      "passed": true,
+      "baseline": "context lost"
+    },
+    {
+      "phase": 4,
+      "metric": "router p95, rule path (ms, n=135)",
+      "value": 8.99,
+      "target": "< 100",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "router p95, embedding tier (ms, n=26, cold)",
+      "value": 902.63,
+      "target": "< 400",
+      "passed": false,
+      "baseline": "—"
+    },
+    {
+      "phase": 4,
+      "metric": "embeddings offline: accuracy, server errors",
+      "value": "0.858, 0 errors",
+      "target": "≥ 0.85, 0",
+      "passed": true,
+      "baseline": "—"
+    }
+  ]
+}

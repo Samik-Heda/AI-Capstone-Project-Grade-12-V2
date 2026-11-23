@@ -1,0 +1,40 @@
+{"text": "What is the GDP of Pune?", "expect": "refusal"}
+{"text": "Which district has the best ports in Gujarat?", "expect": "refusal"}
+{"text": "What's the weather in Nagpur?", "expect": "refusal"}
+{"text": "Write a poem about Nashik", "expect": "refusal"}
+{"text": "Who is the chief minister?", "expect": "refusal"}
+{"text": "Will land prices rise next year?", "expect": "refusal"}
+{"text": "what's the population growth forecast for Thane", "expect": "refusal"}
+{"text": "tell me a joke", "expect": "refusal"}
+{"text": "who won the election in Aurangabad", "expect": "refusal"}
+{"text": "what is the capital of India", "expect": "refusal"}
+{"text": "best restaurants in Kolhapur", "expect": "refusal"}
+{"text": "how hot is it in Akola today", "expect": "refusal"}
+{"text": "write a song about Satara", "expect": "refusal"}
+{"text": "what will the stock market do tomorrow", "expect": "refusal"}
+{"text": "which district in Karnataka is best for textiles", "expect": "refusal"}
+{"text": "what is the crime rate in Solapur", "expect": "refusal"}
+{"text": "recommend a hotel in Pune", "expect": "refusal"}
+{"text": "who is the collector of Jalgaon", "expect": "refusal"}
+{"text": "predict the rainfall in Latur for 2030", "expect": "refusal"}
+{"text": "what is the history of Raigad fort", "expect": "refusal"}
+{"text": "translate this into Marathi", "expect": "refusal"}
+{"text": "how do I get a loan for my factory", "expect": "refusal"}
+{"text": "what is the tax rate on cars", "expect": "refusal"}
+{"text": "which is better, Bangalore or Pune", "expect": "refusal"}
+{"text": "what's the price of gold", "expect": "refusal"}
+{"text": "who founded Tata Motors", "expect": "refusal"}
+{"text": "what should I invest my savings in", "expect": "refusal"}
+{"text": "will Nashik grow faster than Pune in the next 5 years", "expect": "refusal"}
+{"text": "why is Pune ranked first?", "expect": "in_scope"}
+{"text": "what are the strengths of Nashik?", "expect": "in_scope"}
+{"text": "water is critical", "expect": "in_scope"}
+{"text": "land cost does not matter", "expect": "in_scope"}
+{"text": "compare Pune and Nashik", "expect": "in_scope"}
+{"text": "why is Sangli below Kolhapur?", "expect": "in_scope"}
+{"text": "what is the best district?", "expect": "in_scope"}
+{"text": "show me the top districts", "expect": "in_scope"}
+{"text": "tell me about Satara", "expect": "in_scope"}
+{"text": "how does Nagpur do on power?", "expect": "in_scope"}
+{"text": "which district is best for a port?", "expect": "in_scope"}
+{"text": "is Raigad good for chemicals?", "expect": "in_scope"}

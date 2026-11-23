@@ -1,0 +1,70 @@
+{"text": "any other factors i should be concerned about?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "what all might be required?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "how much water does a chip fab need", "profile": "preset:dairy", "expect": "ask"}
+{"text": "what are the risks for my business?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "which factor matters most here?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "what licences do I need?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "do I need a big plot?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "is there enough skilled labour?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "should I worry about power cuts?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "how do I get permits?", "profile": "preset:food_beverages", "expect": "refusal", "note": "P5 scope policy refuses service/subsidy questions; owner decision pending (2026-10-04)"}
+{"text": "what else should I consider", "profile": "preset:dairy", "expect": "ask"}
+{"text": "anything else I should know?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "why does electricity matter so much?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "what does MSME mean?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "can I get subsidies?", "profile": "preset:dairy", "expect": "refusal", "note": "P5 scope policy refuses service/subsidy questions; owner decision pending (2026-10-04)"}
+{"text": "is cheap land important for me?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "how many workers will I need?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "what about pollution rules?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "which district is best overall?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "what makes the top district good?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "tell me what matters for a dairy", "profile": "preset:electronics", "expect": "ask"}
+{"text": "explain the scoring", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "how reliable is this data?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "what should my next step be?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "should I export?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "do we need to be near a port?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "is water a problem for food factories?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "what kind of suppliers will I need", "profile": "preset:automobile", "expect": "ask"}
+{"text": "how important are highways for me?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "what are estates?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "list the things I should check", "profile": "preset:dairy", "expect": "ask"}
+{"text": "give me advice on choosing a site", "profile": "preset:automobile", "expect": "ask"}
+{"text": "recommend what to look at first", "profile": "preset:electronics", "expect": "ask"}
+{"text": "are there any hidden costs?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "will rail access help?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "what if I can't find workers?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "how big should my factory be?", "profile": "preset:electronics", "expect": "ask"}
+{"text": "why is the top one first?", "profile": "preset:food_beverages", "expect": "ask"}
+{"text": "what do you suggest?", "profile": "preset:dairy", "expect": "ask"}
+{"text": "is it a good time to invest?", "profile": "preset:automobile", "expect": "ask"}
+{"text": "what if land were cheaper?", "profile": "preset:electronics", "expect": "what_if"}
+{"text": "what if I didn't need a port", "profile": "preset:food_beverages", "expect": "what_if"}
+{"text": "what if water mattered a lot more", "profile": "preset:dairy", "expect": "what_if"}
+{"text": "suppose power is critical", "profile": "preset:automobile", "expect": "what_if"}
+{"text": "imagine skilled workers don't matter", "profile": "preset:electronics", "expect": "what_if"}
+{"text": "what if highway access was more important", "profile": "preset:food_beverages", "expect": "what_if"}
+{"text": "what if we ignore rail", "profile": "preset:dairy", "expect": "what_if"}
+{"text": "what would happen if land cost didn't matter", "profile": "preset:automobile", "expect": "what_if"}
+{"text": "if I didn't need irrigation", "profile": "preset:electronics", "expect": "what_if"}
+{"text": "what if small suppliers mattered more", "profile": "preset:food_beverages", "expect": "what_if"}
+{"text": "suppose industrial areas are critical", "profile": "preset:dairy", "expect": "what_if"}
+{"text": "what if crop output mattered less", "profile": "preset:automobile", "expect": "what_if"}
+{"text": "imagine water is not important", "profile": "preset:electronics", "expect": "what_if"}
+{"text": "what happens if roads matter more", "profile": "preset:food_beverages", "expect": "what_if"}
+{"text": "what if I care more about electricity", "profile": "preset:dairy", "expect": "what_if"}
+{"text": "water is critical", "profile": "preset:electronics", "expect": "adjust"}
+{"text": "make power more important", "profile": "preset:food_beverages", "expect": "adjust"}
+{"text": "ignore land cost", "profile": "preset:dairy", "expect": "adjust"}
+{"text": "can you make power more important?", "profile": "preset:automobile", "expect": "adjust"}
+{"text": "skilled workers matter more", "profile": "preset:electronics", "expect": "adjust"}
+{"text": "rail is not important", "profile": "preset:food_beverages", "expect": "adjust"}
+{"text": "increase the weight of highway", "profile": "preset:dairy", "expect": "adjust"}
+{"text": "set port to low", "profile": "preset:automobile", "expect": "adjust"}
+{"text": "i want lots of workers and water", "profile": "preset:electronics", "expect": "adjust"}
+{"text": "don't care about water", "profile": "preset:food_beverages", "expect": "adjust"}
+{"text": "cheap land is important", "profile": "preset:dairy", "expect": "adjust"}
+{"text": "reduce irrigation", "profile": "preset:automobile", "expect": "adjust"}
+{"text": "boost industrial areas", "profile": "preset:electronics", "expect": "adjust"}
+{"text": "msme matters more", "profile": "preset:food_beverages", "expect": "adjust"}
+{"text": "drop rail", "profile": "preset:dairy", "expect": "adjust"}

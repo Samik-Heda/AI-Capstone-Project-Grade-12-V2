@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-10-01 19:05:15",
+  "phase": 1,
+  "gates": [
+    {
+      "phase": 0,
+      "metric": "pytest",
+      "value": "23 passed in 1.61s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 0,
+      "metric": "/health p50 (ms)",
+      "value": 1.83,
+      "target": "< 20",
+      "passed": true,
+      "baseline": "~2000"
+    },
+    {
+      "phase": 0,
+      "metric": "Ollama reachable via 127.0.0.1",
+      "value": "True (http://127.0.0.1:11434)",
+      "target": "true",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 0,
+      "metric": "narration model pulled (qwen2.5:3b-instruct)",
+      "value": false,
+      "target": "true",
+      "passed": false,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "districts seeded",
+      "value": 36,
+      "target": "36",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "norm range",
+      "value": "[0.000, 1.000]",
+      "target": "within [0,1]",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "registry fields with status",
+      "value": "13 {'Sourced': 1, 'Derived': 1, 'Estimated': 11}",
+      "target": "13, all with status",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "port distance centroid source",
+      "value": "polygon",
+      "target": "polygon",
+      "passed": true,
+      "baseline": "HQ town"
+    },
+    {
+      "phase": 1,
+      "metric": "Raigad port norm ≥ Ratnagiri",
+      "value": "1.000 (49.6 km) vs 1.000 (35.1 km)",
+      "target": "Raigad ≥ Ratnagiri",
+      "passed": true,
+      "baseline": "Ratnagiri #1 (1 km)"
+    },
+    {
+      "phase": 1,
+      "metric": "transform/normalization unit tests",
+      "value": "18 passed in 0.33s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "map districts (unique ids)",
+      "value": "36 (36 unique)",
+      "target": "36 unique",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 1,
+      "metric": "centroids.csv rows",
+      "value": 36,
+      "target": "36",
+      "passed": true,
+      "baseline": "—"
+    }
+  ]
+}

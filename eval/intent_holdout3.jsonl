@@ -1,0 +1,60 @@
+{"text": "we operate a chain of courier outlets and need a sorting hub", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "our transport firm moves cement bags for builders", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a 3PL company handling auto parts", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "cold storage company for potatoes and onions", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "my family runs a bakery business", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "we are an auto component maker supplying Tata", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a garment exporter", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["company"], "expect_unparsed": ["port"]}
+{"text": "pharma company making antibiotics", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a paint manufacturer", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "solar panel maker looking to expand", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "milk dairy run by farmers", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "biscuit company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "spice export company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"], "expect_unparsed": ["port"]}
+{"text": "noodle and pasta brand", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "jam, jelly and marmalade", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "ghee and butter unit", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "sugarcane juice and jaggery", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:sugar_ethanol", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "wheat flour and semolina mill", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "cotton spinning", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "bedsheets and towels", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "children's clothing", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "electric scooter assembly", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "tractor trolleys and implements", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "laptops and tablets assembly", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["product", "adversarial"]}
+{"text": "water purifiers", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["product", "adversarial"]}
+{"text": "steel-free precision castings", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product", "adversarial"]}
+{"text": "industrial boilers", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "vaccines and biologics", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "agro chemicals and fungicides", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "ethanol from maize", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:sugar_ethanol", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "reefer trucks and cold rooms", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "energy drinks and sodas", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "printing presses and cartons", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "plastic buckets and mugs", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "rubber gloves", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "cars", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "port access is the most important thing", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "we need quick access to Nhava Sheva for exports", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "a coastal district would be ideal", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "ports are not important to us", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "we never use the sea route", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "ignore port distance completely", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "exclude"}, "tags": ["port"]}
+{"text": "a bit less weight on the port", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"port": "low"}, "tags": ["port"]}
+{"text": "being near an airport is useful", "ctx_profile": "preset:textile", "expect_kind": "chat", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "good transport links for staff", "ctx_profile": "preset:textile", "expect_kind": "chat", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "we report to head office in Pune", "ctx_profile": "preset:textile", "expect_kind": "explain_district", "expect_profile": "preset:textile", "expect_modifiers": null, "tags": ["port", "adversarial"], "expect_district": 13}
+{"text": "textile mill near a port", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "plastics plant, port is critical and water is not", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {"port": "critical", "water": "low"}, "tags": ["port", "negation"]}
+{"text": "power and port both matter a lot", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"power": "high", "port": "high"}, "tags": ["port"]}
+{"text": "cheap land is essential", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"land": "critical"}, "tags": ["modifier"]}
+{"text": "MSME suppliers nearby are a must", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"msme": "critical"}, "tags": ["modifier"]}
+{"text": "water supply is not a concern", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"water": "low"}, "tags": ["negation"]}
+{"text": "drop the irrigation factor", "ctx_profile": "preset:textile", "expect_kind": "adjust", "expect_profile": "preset:textile", "expect_modifiers": {"irrigation": "exclude"}, "tags": ["modifier"]}
+{"text": "switch to food processing", "ctx_profile": "preset:textile", "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["switch"]}
+{"text": "Kolhapur vs Satara", "ctx_profile": "preset:textile", "expect_kind": "compare", "expect_profile": "preset:textile", "expect_modifiers": null, "tags": ["compare"]}
+{"text": "tell me about Nagpur", "ctx_profile": "preset:textile", "expect_kind": "explain_district", "expect_profile": "preset:textile", "expect_modifiers": null, "tags": ["explain"], "expect_district": 26}
+{"text": "copper smelter", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}
+{"text": "a shopping mall", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}
+{"text": "quarrying business", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}
+{"text": "nuclear reactor parts factory", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}

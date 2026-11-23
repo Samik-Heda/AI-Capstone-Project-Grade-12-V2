@@ -1,0 +1,80 @@
+# GrowthCompass v2 — single source of truth for ports, models, timeouts and flags.
+# No port number or model name may be duplicated anywhere else in the repo.
+
+[server]
+backend_host = "127.0.0.1"
+backend_port = 8001
+frontend_port = 5176
+
+[ollama]
+# Always 127.0.0.1, never localhost (IPv6 fallback costs ~2 s per call on Windows).
+base_url = "http://127.0.0.1:11434"
+narration_model = "qwen2.5:3b-instruct"
+fallback_model = "qwen2.5:1.5b-instruct"
+quality_model = "qwen2.5:7b-instruct"
+embedding_model = "nomic-embed-text"
+health_interval_s = 30
+health_timeout_s = 1.5
+# 3B notes and answers (§19.5, raised from 4 / 30 on 2026-10-04: explain sheets took 3–4.4 s to first token)
+first_token_timeout_s = 8
+total_timeout_s = 45
+# 7B "Tell me more" answers: room for a cold load (~95 s is only on first use) and ~3.5 tokens/s
+quality_first_token_timeout_s = 60
+quality_total_timeout_s = 180
+# Battery mode (backend/power.py): "auto" detects AC vs battery, "on"/"off" force it. On battery the CPU is
+# throttled (a cold prompt took ~39 s to first token), so narration uses fallback_model with these limits.
+battery_mode = "auto"
+battery_first_token_timeout_s = 30
+battery_total_timeout_s = 75
+keep_alive = "30m"
+
+[narration]
+# §19.1 answers to questions use their own system prompt, usually uncached after a note: longer first-token limit
+ask_first_token_timeout_s = 15
+ask_total_timeout_s = 60
+num_ctx = 2048
+num_predict = 120
+temperature = 0.2
+top_p = 0.9
+
+[interpret]
+# §18.1 LLM free-text understanding: a fallback when the rules cannot tell the industry. It only ever
+# proposes (an Apply chip); nothing changes until the user applies it.
+enabled = true
+# Read free text with quality_model when it is loaded and on AC: 22/23 dev rows vs 17/23 with the 3B model
+# (2026-10-03). The health loop loads it in the background once the chat model is warm; until then, and on
+# battery, the narration model reads.
+prefer_quality_model = true
+num_predict = 40
+timeout_s = 15
+battery_timeout_s = 45
+
+[advisor]
+# §18.2 proactive questions and trade-off tips (deterministic, no LLM).
+max_questions = 3
+min_turn_gap = 2
+tip_rank_threshold = 25   # a top-weighted factor where #1 ranks this low or worse (of 36) gets a heads-up
+tip_top_factors = 4
+
+[brief]
+# §18.3 business brief: written section by section by quality_model on AC (if installed), else the narration model.
+use_quality_model = true
+num_predict = 140
+section_timeout_s = 150
+battery_section_timeout_s = 240
+first_token_timeout_s = 90   # a cold 7B load took ~60 s on the reference laptop
+
+[paths]
+db = "data/gc.db"
+map_json = "frontend/public/map.json"
+centroids_csv = "data/centroids.csv"
+
+[features]
+narration = true
+embeddings = true
+warmup = true
+
+[intent]
+# Calibrated by eval/intent_eval.py --calibrate on 109 rows (corpus calib split + intent_fresh dev set) (accuracy 1.000); spec start values τ=0.62, δ=0.05.
+tau = 0.62
+delta = 0.06

@@ -1,0 +1,13 @@
+{
+  "about": [
+    "GrowthCompass ranks Maharashtra's 36 districts for a kind of industrial investment. Each district's score is a weighted sum of 13 factors, each scaled from 0 to 1 across the 36 districts; the weights come from an industry preset and your adjustments.",
+    "Rankings, strengths, weaknesses and confidence bands are computed by code from the dataset. The optional AI note only restates those computed facts, and each note is checked for numbers, district names and better/worse claims that the facts do not support.",
+    "This is a screening aid, not investment advice. Check the underlying figures before a real decision."
+  ],
+  "limitations": [
+    "There are no crop-specific outputs. Sugarcane, milk, cotton and grapes are all represented by generic crop output and irrigation, so Sugar, Dairy and Textile rankings are approximations.",
+    "There are no mineral, coal or limestone fields, so resource-bound industries (cement, steel, mining) are not supported.",
+    "Raigad's rail value of 1 understates the Konkan Railway and JNPT freight access, and Ratnagiri's and Sindhudurg's port proximity uses straight-line distance.",
+    "Literacy and population come from Census 2011, the latest available district census."
+  ]
+}

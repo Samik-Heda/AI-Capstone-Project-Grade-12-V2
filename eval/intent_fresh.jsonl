@@ -1,0 +1,61 @@
+{"text": "we are a courier company looking for a hub", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a trucking company needs a depot", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "we run a packers and movers business", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "e-commerce delivery company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "goods transport company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a transport business moving parcels across the state", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a company that bottles fruit juices", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a company producing LED bulbs", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "our company produces cattle feed", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a firm making paints and varnishes", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "family business making pickles and papads", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a cooperative that collects milk from villages", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "company making car seat covers", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "contract manufacturer of generic tablets", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "shoe sole manufacturer", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "company making PVC windows and doors", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "freight forwarding company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "my company wants to open a warehouse", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "frozen parathas unit", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "chikki and sweets making", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "egg powder plant", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "basmati rice processing", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "groundnut decorticating unit", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "maize processing for starch", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "zari and lace work", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "leggings and nightwear", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "electric two-wheeler batteries", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "car air filters factory", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "smart meters assembly", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "CNC machined components", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "vitamin supplements plant", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "homeopathic medicines", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "paper straws unit", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "printing of labels and stickers", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "tarpaulin manufacturing", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "tyre recycling plant", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "flavoured milk drinks", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "molasses-based alcohol", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:sugar_ethanol", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "dehydrated garlic flakes", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "blast freezing and reefer storage for fish", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "port connectivity is very important", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "we need to be close to a seaport", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "close to JNPT", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "proximity to Nhava Sheva", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "coastal location preferred", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "we export by sea, so port access matters", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "distance to port is irrelevant", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "we don't ship by sea", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "far from the coast is fine", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "good sea connectivity", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "harbour access is a must", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "it should be an export oriented unit", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "important to have rail and port", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"rail": "high", "port": "high"}, "tags": ["port"]}
+{"text": "no port needed, we sell locally", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "what about being near the airport?", "ctx_profile": "preset:food_beverages", "expect_kind": "chat", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "transport costs worry us", "ctx_profile": "preset:food_beverages", "expect_kind": "chat", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "chemical plant near a port", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "logistics park close to the port", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "electronics export unit near JNPT", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {"port": "high"}, "tags": ["port"]}
+{"text": "steady electricity supply is a must", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"power": "critical"}, "tags": ["modifier"]}
+{"text": "lots of water needed", "ctx_profile": "preset:food_beverages", "expect_kind": "adjust", "expect_profile": "preset:food_beverages", "expect_modifiers": {"water": "high"}, "tags": ["modifier"]}

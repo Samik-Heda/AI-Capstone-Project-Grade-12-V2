@@ -1,0 +1,30 @@
+{"id": "explain-1", "task": "explain", "profile": "preset:automobile", "text": "explain {r1}"}
+{"id": "explain-2", "task": "explain", "profile": "preset:electronics", "text": "tell me about {r1}"}
+{"id": "explain-3", "task": "explain", "profile": "preset:general_manufacturing", "text": "why is {r1} ranked first?"}
+{"id": "explain-4", "task": "explain", "profile": "preset:textile", "text": "explain {r1}"}
+{"id": "explain-5", "task": "explain", "profile": "preset:sugar_ethanol", "text": "what makes {r1} the top district?"}
+{"id": "explain-6", "task": "explain", "profile": "preset:dairy", "text": "explain {r1}"}
+{"id": "explain-7", "task": "explain", "profile": "preset:food_beverages", "text": "tell me about {r1}"}
+{"id": "explain-8", "task": "explain", "profile": "preset:agro_cold", "text": "why is {r1} number one?"}
+{"id": "explain-9", "task": "explain", "profile": "preset:food_beverages", "text": "explain {last}"}
+{"id": "explain-10", "task": "explain", "profile": "preset:automobile", "text": "tell me about {last}"}
+{"id": "compare-1", "task": "compare", "profile": "preset:automobile", "text": "compare Pune and Nashik"}
+{"id": "compare-2", "task": "compare", "profile": "preset:sugar_ethanol", "text": "compare Kolhapur and Sangli"}
+{"id": "compare-3", "task": "compare", "profile": "preset:chemicals", "text": "compare Thane and Raigad"}
+{"id": "compare-4", "task": "compare", "profile": "preset:general_manufacturing", "text": "compare Nagpur and Aurangabad"}
+{"id": "compare-5", "task": "compare", "profile": "preset:dairy", "text": "compare Solapur and Ahmednagar"}
+{"id": "compare-6", "task": "compare", "profile": "preset:agro_cold", "text": "Jalgaon vs Nashik"}
+{"id": "compare-7", "task": "compare", "profile": "preset:electronics", "text": "compare Pune with Thane"}
+{"id": "compare-8", "task": "compare", "profile": "preset:textile", "text": "compare Amravati and Nagpur"}
+{"id": "why-1", "task": "why_not_first", "profile": "preset:sugar_ethanol", "text": "why is Sangli below Kolhapur?"}
+{"id": "why-2", "task": "why_not_first", "profile": "preset:electronics", "text": "why isn't {r2} first?"}
+{"id": "why-3", "task": "why_not_first", "profile": "preset:textile", "text": "why is {r4} below {r1}?"}
+{"id": "why-4", "task": "why_not_first", "profile": "preset:dairy", "text": "why is {r3} not number one?"}
+{"id": "why-5", "task": "why_not_first", "profile": "preset:general_manufacturing", "text": "why does {r5} rank lower than {r2}?"}
+{"id": "why-6", "task": "why_not_first", "profile": "preset:food_beverages", "text": "why is {r3} behind {r1}?"}
+{"id": "refusal-1", "task": "refusal", "profile": "preset:general_manufacturing", "text": "What is the GDP of Pune?"}
+{"id": "refusal-2", "task": "refusal", "profile": "preset:general_manufacturing", "text": "Which district has the best ports in Gujarat?"}
+{"id": "refusal-3", "task": "refusal", "profile": "preset:general_manufacturing", "text": "What's the weather in Nagpur?"}
+{"id": "refusal-4", "task": "refusal", "profile": "preset:general_manufacturing", "text": "Write a poem about Nashik"}
+{"id": "refusal-5", "task": "refusal", "profile": "preset:general_manufacturing", "text": "Who is the chief minister?"}
+{"id": "refusal-6", "task": "refusal", "profile": "preset:general_manufacturing", "text": "Will land prices rise next year?"}

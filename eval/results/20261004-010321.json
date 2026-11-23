@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-10-04 01:03:21",
+  "phase": 9,
+  "gates": [
+    {
+      "phase": 6,
+      "metric": "UI walkthrough steps 1–14 (headless chrome.exe)",
+      "value": "1280x720 14/14; 1920x1080 14/14",
+      "target": "14/14 at both resolutions",
+      "passed": true,
+      "baseline": "industry switch ignored; reset swapped profile; popup stale"
+    },
+    {
+      "phase": 6,
+      "metric": "console errors/warnings from app code",
+      "value": 0,
+      "target": "0",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "map recolor p95 (ms, response → next frame + 200 ms fill, n=44)",
+      "value": 253,
+      "target": "< 300",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "slider drag → re-ranked map p95 (ms, last input → next frame, n=54)",
+      "value": 104,
+      "target": "< 200",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "no numbers or input boxes on weight controls; plain labels (DOM)",
+      "value": "pass",
+      "target": "both resolutions",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "popup values equal /district (DOM vs API)",
+      "value": "pass",
+      "target": "both resolutions",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "open popup re-fetches on weights change (DOM vs API)",
+      "value": "pass",
+      "target": "both resolutions",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "all 36 districts clickable, incl. both Mumbai",
+      "value": "pass",
+      "target": "both resolutions",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 6,
+      "metric": "no dangerouslySetInnerHTML/innerHTML (eslint: src clean, probe rejected)",
+      "value": "src clean=True, probe errors=2",
+      "target": "clean, ≥ 2",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "builder/CRUD/save-from-chat/cluster tests",
+      "value": "18 passed in 2.24s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "profile corpus: preset auto-pick (20 rows, embeddings=True)",
+      "value": "0.95 (wrong: [13])",
+      "target": "≥ 0.90",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "profile corpus: rows passing (§14.3 rule)",
+      "value": "0.95 (fail: [13])",
+      "target": "≥ 0.90",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "negated fields below their starting-preset value",
+      "value": "4/4",
+      "target": "100%",
+      "passed": true,
+      "baseline": "\"land does not matter\" gave land 64%"
+    },
+    {
+      "phase": 7,
+      "metric": "rows annotated top-1 with that field first (report)",
+      "value": "2/4 [2, 12]",
+      "target": "report",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "draft latency p95 (ms, API round trip)",
+      "value": 7.6,
+      "target": "< 600",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "conversation scripts 4, 5, 9, 10",
+      "value": "4/4",
+      "target": "4/4",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "clusters: k by silhouette in [3,6], unique labels and colors",
+      "value": "k=3 silhouette=0.364 (tried {'3': 0.364, '4': 0.31, '5': 0.335, '6': 0.329})",
+      "target": "k ∈ [3,6], unique",
+      "passed": true,
+      "baseline": "duplicate cluster labels; colors repeat for k > 4"
+    },
+    {
+      "phase": 7,
+      "metric": "clusters: unique labels and colors for every k = 3…6",
+      "value": "pass",
+      "target": "all",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "UI walkthrough steps 15–20 (step 20 with Ollama unreachable)",
+      "value": "1280x720 6/6; 1920x1080 6/6",
+      "target": "6/6 at both resolutions",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 7,
+      "metric": "console errors/warnings, steps 1–20",
+      "value": 0,
+      "target": "0",
+      "passed": true,
+      "baseline": "—"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{"text": "we wash vegetables all day so we need loads of water", "expect": ["agro_cold", "food_beverages"], "split": "dev"}
+{"text": "bamboo sticks for incense, my uncle does it", "expect": ["general_manufacturing"], "split": "dev"}
+{"text": "hand-made leather wallets and belts", "expect": ["general_manufacturing", "textile"], "split": "dev"}
+{"text": "surgical gloves and syringes", "expect": ["pharma", "plastics_rubber"], "split": "dev"}
+{"text": "washing powder and dish bars", "expect": ["chemicals"], "split": "dev"}
+{"text": "medical oxygen cylinders refilling", "expect": ["chemicals", "pharma"], "split": "dev"}
+{"text": "hand sanitiser and disinfectant liquid", "expect": ["chemicals", "pharma"], "split": "dev"}
+{"text": "a fridge and AC repair plus assembly unit", "expect": ["electronics"], "split": "dev"}
+{"text": "toothpaste and shampoo", "expect": ["chemicals"], "split": "dev"}
+{"text": "buy farmland to grow grapes", "expect": ["unknown", "agro_cold"], "split": "dev"}
+{"text": "my village has lots of buffaloes and I want to start something with that", "expect": ["dairy"], "split": "dev"}
+{"text": "I want to make things people put on their face and hair", "expect": ["chemicals"], "split": "dev"}
+{"text": "cleaning liquids for floors and toilets", "expect": ["chemicals"], "split": "dev"}
+{"text": "electric meters and wiring boards", "expect": ["electronics"], "split": "dev"}
+{"text": "we make soft toys and cushions", "expect": ["textile"], "split": "dev"}
+{"text": "products from coconut, like oil and coir", "expect": ["agro_cold"], "split": "dev"}
+{"text": "seat belts and airbags", "expect": ["automobile"], "split": "dev"}
+{"text": "we freeze peas and corn", "expect": ["food_beverages", "agro_cold"], "split": "dev"}
+{"text": "an industry that uses a lot of farm produce from our district", "expect": ["agro_cold", "food_beverages"], "split": "dev"}
+{"text": "something for the construction sector, like tiles", "expect": ["general_manufacturing"], "split": "dev"}
+{"text": "I want to start a business with good returns", "expect": ["unknown"], "split": "dev"}
+{"text": "my son finished engineering and wants to start a factory", "expect": ["unknown", "general_manufacturing"], "split": "dev"}
+{"text": "we want to set up a unit and need cheap land", "expect": ["unknown", "general_manufacturing"], "split": "dev"}
+{"text": "mosquito coils and repellent cards", "expect": ["chemicals"], "split": "holdout"}
+{"text": "shoe polish and floor wax", "expect": ["chemicals"], "split": "holdout"}
+{"text": "phenyl and naphthalene balls", "expect": ["chemicals"], "split": "holdout"}
+{"text": "candles and matchboxes", "expect": ["general_manufacturing", "chemicals"], "split": "holdout"}
+{"text": "umbrellas and raincoats", "expect": ["textile", "general_manufacturing", "plastics_rubber"], "split": "holdout"}
+{"text": "mattresses and pillows", "expect": ["textile"], "split": "holdout"}
+{"text": "bandages and gauze", "expect": ["pharma", "textile"], "split": "holdout"}
+{"text": "diapers and sanitary pads", "expect": ["textile", "general_manufacturing", "pharma"], "split": "holdout"}
+{"text": "smart watches and fitness bands", "expect": ["electronics"], "split": "holdout"}
+{"text": "wiper blades and horns", "expect": ["automobile"], "split": "holdout"}
+{"text": "steering wheels and dashboards", "expect": ["automobile"], "split": "holdout"}
+{"text": "sewing needles and safety pins", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "locks and door handles", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "ceramic mugs and plates", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "bricks and paver blocks", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "springs and washers", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "pens and pencils", "expect": ["general_manufacturing", "plastics_rubber"], "split": "holdout"}
+{"text": "gift wrapping paper and ribbons", "expect": ["general_manufacturing"], "split": "holdout"}
+{"text": "foam sheets and packing peanuts", "expect": ["plastics_rubber"], "split": "holdout"}
+{"text": "jams and jellies", "expect": ["food_beverages"], "split": "holdout"}
+{"text": "ice for fish markets", "expect": ["food_beverages", "agro_cold"], "split": "holdout"}
+{"text": "dried red chillies and turmeric", "expect": ["agro_cold", "food_beverages"], "split": "holdout"}
+{"text": "a yard for shipping containers", "expect": ["logistics"], "split": "holdout"}
+{"text": "the process is dry", "expect": ["no"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "water", "text": "Will your plant use a lot of water, for cooling, washing or processing?"}}
+{"text": "we recycle every drop, so hardly", "expect": ["no"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "water", "text": "Will your plant use a lot of water, for cooling, washing or processing?"}}
+{"text": "our machines run three shifts", "expect": ["a_lot", "yes"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "power", "text": "Will your plant run heavy machines that need steady electricity all day?"}}
+{"text": "only the kitchen uses it", "expect": ["no"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "water", "text": "Will your plant use a lot of water, for cooling, washing or processing?"}}
+{"text": "everything goes to Dubai and Europe", "expect": ["a_lot", "yes"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "port", "text": "Will you export or import goods by sea?"}}
+{"text": "our buyers are in the next town", "expect": ["no"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "port", "text": "Will you export or import goods by sea?"}}
+{"text": "we hire mostly graduates and diploma holders", "expect": ["a_lot", "yes"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "literacy", "text": "Will you need many trained or educated workers, like technicians, operators or office staff?"}}
+{"text": "the plot can be tiny", "expect": ["no"], "split": "answer", "profile": "preset:food_beverages", "question": {"field": "land", "text": "Do you need a big plot of land, so a low land price matters a lot?"}}

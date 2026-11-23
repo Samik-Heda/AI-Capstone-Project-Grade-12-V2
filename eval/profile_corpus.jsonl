@@ -1,0 +1,20 @@
+{"id": 1, "text": "pharmaceutical plant needing clean water, stable power and skilled graduates near a highway", "expect_preset": "pharma", "expect_fields": ["water", "power", "literacy"], "negated": []}
+{"id": 2, "text": "Need a port for exports. Land cost does not matter.", "expect_preset": null, "expect_fields": ["port"], "top1": "port", "negated": ["land"]}
+{"id": 3, "text": "cheap land and good rail for a warehouse", "expect_preset": "logistics", "expect_fields": ["land", "rail"], "negated": []}
+{"id": 4, "text": "fruit processing close to farms with lots of irrigation", "expect_preset": "food_beverages", "expect_fields": ["crop_output", "irrigation"], "negated": []}
+{"id": 5, "text": "electronics assembly with educated workforce and reliable electricity, water is not important", "expect_preset": "electronics", "expect_fields": ["literacy", "power"], "negated": ["water"]}
+{"id": 6, "text": "heavy trucks need highways and good roads", "expect_preset": null, "expect_fields": ["highway", "road_density"], "negated": []}
+{"id": 7, "text": "supplier ecosystem of small vendors and existing industrial parks", "expect_preset": null, "expect_fields": ["msme", "estates"], "negated": []}
+{"id": 8, "text": "dairy needs a milk-rich farming region and water", "expect_preset": "dairy", "expect_fields": ["crop_output", "water"], "negated": []}
+{"id": 9, "text": "don't care about ports, focus on crops and crop variety", "expect_preset": null, "expect_fields": ["crop_output", "crop_diversity"], "negated": ["port"]}
+{"id": 10, "text": "export garment unit near the coast with skilled tailors", "expect_preset": "textile", "expect_fields": ["port", "literacy", "msme"], "negated": []}
+{"id": 11, "text": "uninterrupted power is critical for our furnace", "expect_preset": null, "expect_fields": ["power"], "top1": "power", "negated": []}
+{"id": 12, "text": "low cost plot in a rural area", "expect_preset": null, "expect_fields": ["land"], "top1": "land", "negated": []}
+{"id": 13, "text": "bulk cargo by rail and sea", "expect_preset": null, "expect_fields": ["rail", "port"], "negated": []}
+{"id": 14, "text": "food plant needing abundant water and many crop types", "expect_preset": "food_beverages", "expect_fields": ["water", "crop_diversity", "crop_output"], "negated": []}
+{"id": 15, "text": "plug and play MIDC shed", "expect_preset": null, "expect_fields": ["estates"], "top1": "estates", "negated": []}
+{"id": 16, "text": "skilled engineers and good road and rail connectivity", "expect_preset": null, "expect_fields": ["literacy", "road_density", "rail"], "negated": []}
+{"id": 17, "text": "ignore literacy; we need cheap land and power", "expect_preset": null, "expect_fields": ["land", "power"], "negated": ["literacy"], "zero": ["literacy"]}
+{"id": 18, "text": "cold storage for vegetables near farms with reliable power", "expect_preset": "agro_cold", "expect_fields": ["crop_output", "power"], "negated": []}
+{"id": 19, "text": "irrigated sugarcane belt with a rail siding", "expect_preset": "sugar_ethanol", "expect_fields": ["irrigation", "crop_output", "rail"], "negated": []}
+{"id": 20, "text": "near the port, inside an existing industrial estate, lots of small suppliers", "expect_preset": null, "expect_fields": ["port", "estates", "msme"], "negated": []}

@@ -1,0 +1,104 @@
+{
+  "status_note": "Values marked Estimated are approximations for demonstration; verify before real investment decisions.",
+  "display_only": [
+    {"key": "population", "label": "Population", "raw_column": "population", "unit": "persons", "source": "Census of India 2011", "status": "Sourced", "format": "int"}
+  ],
+  "fields": [
+    {
+      "key": "literacy", "label": "Literacy rate", "plain_label": "Skilled workers", "short": "Literacy",
+      "raw_column": "literacy_rate", "unit": "%", "direction": "higher", "transform": "linear",
+      "source": "Census of India 2011", "status": "Sourced", "format": "pct1",
+      "synonyms": ["literacy", "literate", "educated", "skilled", "workforce", "talent", "graduates", "engineers"],
+      "explain_high": "a highly literate workforce", "explain_low": "a less literate workforce"
+    },
+    {
+      "key": "road_density", "label": "Road density", "plain_label": "Local roads", "short": "Roads",
+      "raw_column": "road_density_km_per_km2", "unit": "km/km²", "direction": "higher", "transform": "log1p",
+      "source": "MoRTH road statistics (approximate values)", "status": "Estimated", "format": "km_per_km2",
+      "synonyms": ["road", "roads", "road network"],
+      "explain_high": "a dense road network", "explain_low": "a sparse road network"
+    },
+    {
+      "key": "highway", "label": "Highway access", "plain_label": "Highway access", "short": "Highway",
+      "raw_column": "highway_access", "unit": "0 none / 1 state / 2 national", "direction": "higher",
+      "transform": "categorical", "categories": {"0": 0.0, "1": 0.5, "2": 1.0},
+      "category_labels": {"0": "No highway", "1": "State HW", "2": "National HW"},
+      "source": "Hand-coded from highway maps", "status": "Estimated", "format": "category",
+      "synonyms": ["highway", "highways", "expressway", "nh"],
+      "explain_high": "national highway access", "explain_low": "weak highway access"
+    },
+    {
+      "key": "rail", "label": "Rail connectivity", "plain_label": "Rail access", "short": "Rail",
+      "raw_column": "rail_connectivity", "unit": "0 none / 1 line / 2 junction", "direction": "higher",
+      "transform": "categorical", "categories": {"0": 0.0, "1": 0.5, "2": 1.0},
+      "category_labels": {"0": "No rail", "1": "Rail line", "2": "Junction"},
+      "source": "Hand-coded from railway maps", "status": "Estimated", "format": "category",
+      "synonyms": ["rail", "railway", "railways", "train", "trains", "siding"],
+      "explain_high": "a major rail junction", "explain_low": "limited rail links"
+    },
+    {
+      "key": "port", "label": "Port distance", "plain_label": "Near a port", "short": "Port",
+      "raw_column": null, "unit": "km, straight line", "direction": "lower", "transform": "log1p",
+      "source": "Haversine from district polygon centroid to nearest major port", "status": "Derived", "format": "km",
+      "synonyms": ["port", "ports", "sea", "shipping", "export hub", "harbour", "harbor", "coast"],
+      "stoplist": ["airport", "airports", "support", "important", "report", "passport", "transport"],
+      "explain_high": "short distance to a major port", "explain_low": "a long haul to the nearest port"
+    },
+    {
+      "key": "power", "label": "Power availability", "plain_label": "Reliable electricity", "short": "Power",
+      "raw_column": "power_availability_index", "unit": "index 0–10", "direction": "higher", "transform": "linear",
+      "source": "Author's composite index", "status": "Estimated", "format": "index10",
+      "synonyms": ["power", "electricity", "grid", "energy"],
+      "explain_high": "reliable grid power", "explain_low": "weak power supply"
+    },
+    {
+      "key": "water", "label": "Water availability", "plain_label": "Water supply", "short": "Water",
+      "raw_column": "water_availability_index", "unit": "index 0–10", "direction": "higher", "transform": "linear",
+      "source": "Author's composite index", "status": "Estimated", "format": "index10",
+      "synonyms": ["water"],
+      "explain_high": "ample water", "explain_low": "scarce water"
+    },
+    {
+      "key": "crop_output", "label": "Crop output", "plain_label": "Farm produce", "short": "Crop output",
+      "raw_column": "crop_output_mt_3yr_avg", "unit": "tonnes/yr", "direction": "higher", "transform": "log1p",
+      "source": "Approximate agri statistics", "status": "Estimated", "format": "tonnes",
+      "synonyms": ["crop", "crops", "crop output", "farm output", "agriculture", "raw material supply"],
+      "explain_high": "high farm output", "explain_low": "low farm output"
+    },
+    {
+      "key": "crop_diversity", "label": "Crop diversity", "plain_label": "Variety of crops", "short": "Crop variety",
+      "raw_column": "crop_diversity_count", "unit": "# major crops", "direction": "higher", "transform": "linear",
+      "source": "Approximate", "status": "Estimated", "format": "crops",
+      "synonyms": ["crop variety", "crop diversity", "many crops"],
+      "explain_high": "a wide variety of crops", "explain_low": "few major crops"
+    },
+    {
+      "key": "irrigation", "label": "Irrigation coverage", "plain_label": "Irrigated farmland", "short": "Irrigation",
+      "raw_column": "irrigation_coverage_pct", "unit": "% of net sown area", "direction": "higher", "transform": "linear",
+      "source": "Approximate (Minor Irrigation Census basis)", "status": "Estimated", "format": "pct0",
+      "synonyms": ["irrigation", "irrigated"],
+      "explain_high": "well-irrigated farmland", "explain_low": "little irrigation"
+    },
+    {
+      "key": "estates", "label": "Industrial estates", "plain_label": "Industrial areas (MIDC)", "short": "Estates",
+      "raw_column": "industrial_estate_count", "unit": "count", "direction": "higher", "transform": "log1p",
+      "source": "Approximate MIDC area count", "status": "Estimated", "format": "count",
+      "synonyms": ["industrial estate", "industrial estates", "midc", "industrial park", "industrial parks", "sez"],
+      "explain_high": "many industrial estates", "explain_low": "few industrial estates"
+    },
+    {
+      "key": "msme", "label": "MSME base", "plain_label": "Small suppliers nearby", "short": "MSME",
+      "raw_column": "msme_count", "unit": "count", "direction": "higher", "transform": "log1p",
+      "source": "Approximate registrations", "status": "Estimated", "format": "count",
+      "synonyms": ["msme", "msmes", "suppliers", "vendors", "small businesses", "ancillary"],
+      "explain_high": "a large MSME supplier base", "explain_low": "a thin MSME supplier base"
+    },
+    {
+      "key": "land", "label": "Land affordability", "plain_label": "Cheap land", "short": "Land",
+      "raw_column": "land_affordability", "unit": "0–1, 1 = cheapest", "direction": "higher", "transform": "linear",
+      "source": "Author's estimate", "status": "Estimated", "format": "land",
+      "synonyms": ["land", "land cost", "cheap land", "affordable land", "real estate", "plot"],
+      "explain_high": "affordable land", "explain_low": "expensive land"
+    }
+  ]
+}

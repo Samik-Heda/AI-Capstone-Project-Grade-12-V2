@@ -1,0 +1,502 @@
+[
+ {
+  "text": "any other factors i should be concerned about?",
+  "event": "done",
+  "s": 6.8,
+  "first_ms": 521,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "You should be concerned about ultra-pure water treatment, power quality and backup, air-cargo access, clean-room and anti-static build cost, and e-waste and chemical clearances. General advice: ensure you have reliable power and clean facilities for your electronics manufacturing. Consider proximity to suppliers and potential for expansion.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what all might be required?",
+  "event": "done",
+  "s": 20.9,
+  "first_ms": 7242,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "For a food and beverages business in Nashik, you might need to ensure you have a reliable supply of farm produce and a variety of crops. You should also focus on water supply and irrigation systems. While the data doesn't cover skilled workers, rail access, or cheap land, you should still consider these factors for a comprehensive business plan. Additionally, make sure to get the necessary FSSAI license and conduct food-safety audits. Establishing cold storage and packing facilities is also important. Lastly, consider the potential for distribution to big markets and support for food parks.",
+  "has_advice": false,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "how much water does a chip fab need",
+  "event": "done",
+  "s": 9.3,
+  "first_ms": 754,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "The FACTS provided do not cover the water needs of a chip fabrication facility (chip fab). For such a facility, you would need to check specific data on water usage, which can vary significantly depending on the facility's size and technology. General advice: ensure you have a reliable water supply, as it's crucial for operations. Consult with local water management authorities and possibly a water consultant to understand your specific needs.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": false,
+  "error": null
+ },
+ {
+  "text": "what are the risks for my business?",
+  "event": "done",
+  "s": 8.1,
+  "first_ms": 593,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "The main risk for your business in Pune is the expensive land, which could be a significant financial burden. Additionally, water supply is not covered in the data, so you might need to check if there are reliable water sources nearby. General advice: ensure you have a solid plan for sourcing parts and expanding your workforce, as these are important for your business's growth.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "which factor matters most here?",
+  "event": "done",
+  "s": 6.8,
+  "first_ms": 522,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "The factor that matters most for the electronics industry in Pune is skilled workers, reliable electricity, and industrial areas (MIDC). General advice: Ensure you have reliable power and access to skilled labor. Look into the cost of land and explore options for ultra-pure water treatment and clean-room facilities.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what licences do I need?",
+  "event": "done",
+  "s": 8.2,
+  "first_ms": 494,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "For the Food & Beverages sector in Nashik, you need to obtain a Food Safety and Standards Authority of India (FSSAI) licence. Additionally, you should ensure you have cold storage and packing facilities to meet food safety standards. General advice: prepare for potential food-safety audits and consider getting support for a food park or scheme to help with distribution to big markets.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "do I need a big plot?",
+  "event": "done",
+  "s": 13.5,
+  "first_ms": 499,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 3,
+   "numbers_supported": 3
+  },
+  "answer": "In Nashik, the top dairy district, you have a strong base with 5.2 million tonnes of farm produce and 31% irrigated farmland. However, land availability is a concern with only 0.32. Given this, you might need a substantial plot to meet your initial needs, but also consider how you can scale up or collaborate with other farmers to use less land.\n\nGeneral advice:\n- Look into village milk-collection networks to reduce land requirements.\n- Invest in a robust cold chain system to transport milk efficiently.\n- Ensure you have the FSSAI licence and lab testing for quality control.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "is there enough skilled labour?",
+  "event": "done",
+  "s": 7.9,
+  "first_ms": 525,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 3,
+   "numbers_supported": 3
+  },
+  "answer": "Pune has a strength in having 45,000 small suppliers nearby, which is a significant factor for skilled labour. However, the data does not cover the exact number of skilled workers available in Pune. General advice: check for tier-1 and tier-2 parts suppliers within a day's drive to ensure a steady supply of skilled labour.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "should I worry about power cuts?",
+  "event": "done",
+  "s": 10.0,
+  "first_ms": 602,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 2,
+   "numbers_supported": 2
+  },
+  "answer": "For the electronics industry in Pune, the reliability of electricity is rated at 8.5 out of 10, indicating it's quite reliable. However, there's a concern about land prices, which are expensive. Given this, you might want to consider the cost implications of the high land prices in your business plan. General advice: ensure you have a reliable power supply, and be mindful of the cost impact of expensive land in your budget planning.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what else should I consider",
+  "event": "done",
+  "s": 6.9,
+  "first_ms": 555,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "You should consider establishing a robust village milk-collection network to ensure a steady supply of fresh milk. Also, look into bulk milk chilling and the cold chain system to maintain milk quality before reaching city markets. Lastly, make sure to obtain the necessary fssai licence and conduct lab testing to meet food safety standards.",
+  "has_advice": false,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "anything else I should know?",
+  "event": "done",
+  "s": 11.8,
+  "first_ms": 537,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 2,
+   "numbers_supported": 2
+  },
+  "answer": "For your small business in Maharashtra, considering the automobile industry, you should look into finding tier-1 and tier-2 parts suppliers within a day's drive, as well as securing a large flat plot with room to expand. Additionally, ensure you have heavy-truck access for finished vehicles and that you can obtain iti-trained technicians and welders. Lastly, make sure the paint-shop is cleared for pollution to comply with environmental standards. General advice: focus on reliable suppliers and infrastructure, and consider the cost of land and water supply.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "why does electricity matter so much?",
+  "event": "done",
+  "s": 10.5,
+  "first_ms": 623,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 2,
+   "numbers_supported": 2
+  },
+  "answer": "Electricity is crucial for many electronics businesses because they need a reliable power supply to operate machinery and maintain consistent quality. Without stable electricity, businesses might face interruptions in production, leading to delays and increased costs. In Pune, reliable electricity is rated at 8.5 out of 10, indicating it's a top concern for electronics companies in the area. General advice: Ensure your business has backup power solutions and consider the cost of maintaining reliable electricity in your budget planning.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what does MSME mean?",
+  "event": "done",
+  "s": 4.4,
+  "first_ms": 478,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "MSME stands for Micro, Small, and Medium Enterprises. These are small businesses that are important for the economy. They include a wide range of businesses from food and beverage to manufacturing.",
+  "has_advice": false,
+  "advice_numbers": false,
+  "mentions_need": false,
+  "error": null
+ },
+ {
+  "text": "is cheap land important for me?",
+  "event": "done",
+  "s": 7.6,
+  "first_ms": 610,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 1,
+   "numbers_supported": 1
+  },
+  "answer": "Pune, being the top choice for automobile businesses, has cheap land (land 0.10, meaning very expensive). So, if cheap land is important for your business, Pune might not be the best fit. General advice: consider other districts for land costs, and look into nearby areas for potential expansion or relocation if needed.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": false,
+  "error": null
+ },
+ {
+  "text": "how many workers will I need?",
+  "event": "done",
+  "s": 11.7,
+  "first_ms": 656,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 1,
+   "numbers_supported": 1
+  },
+  "answer": "Pune has a skilled workforce percentage of 86.0%, which is a strong indicator for your electronics business. However, the data does not provide a direct count of workers needed. General advice: consider your specific business needs and consult with local employment agencies or consultants for a more accurate estimate.\n\nGeneral advice:\n- Ensure you have a clear understanding of your production process and labor requirements.\n- Consider hiring strategies that align with your budget and Pune's skilled workforce availability.\n- Look into training programs to help upskill your current workforce.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": false,
+  "error": null
+ },
+ {
+  "text": "what about pollution rules?",
+  "event": "done",
+  "s": 6.5,
+  "first_ms": 436,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "The data does not cover pollution rules for the Food & Beverages industry in Maharashtra. Matters most for Nashik are farm produce, variety of crops, and water supply. General advice: Check for fssai licences and food-safety audits, and consider cold storage and packing material for your business.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "which district is best overall?",
+  "event": "done",
+  "s": 8.9,
+  "first_ms": 526,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Nashik is the top district for dairy based on the FACTS provided. It excels in farm produce, irrigated farmland, and water supply. General advice: Ensure you have a robust network for collecting milk from villages, proper chilling facilities, and a cold chain system to transport milk to city markets. Also, make sure to obtain the necessary FSSAI license and conduct lab testing as required.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what makes the top district good?",
+  "event": "done",
+  "s": 5.3,
+  "first_ms": 514,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Pune is top among the districts for its small suppliers nearby, industrial areas like MIDC, and reliable electricity. General advice: look for nearby small suppliers, consider industrial areas for expansion, and ensure you have a stable power supply.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "tell me what matters for a dairy",
+  "event": "done",
+  "s": 9.7,
+  "first_ms": 622,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "The FACTS provided are specific to the electronics industry and do not cover the factors important for a dairy business. For a dairy, matters most would include good quality water supply, reliable and sufficient electricity, access to markets (like ports or markets), and proximity to farms for raw materials. General advice for a dairy business could include checking for good water treatment facilities, ensuring reliable power supply, and having easy access to transport for moving products.",
+  "has_advice": false,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "explain the scoring",
+  "event": "done",
+  "s": 17.9,
+  "first_ms": 489,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 7,
+   "numbers_supported": 7
+  },
+  "answer": "The scoring for the Food & Beverages district in Maharashtra is based on 13 factors, with scores ranging from 1 to 100. Nashik scored highest with 91.7, followed by Pune with 91.2. The scoring considers various factors such as farm produce, variety of crops, and water supply. Nashik excels in these areas with 5.2 million tonnes of farm produce and 12 different types of crops. The score does not include factors like skilled workers, rail access, or cheap land, which might be important for other businesses.\n\nGeneral advice: For food businesses in Nashik, ensure you have a reliable supply of farm produce and a variety of crops. Also, consider the availability of water supply. Keep in mind that the score does not reflect the availability of skilled workers or",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": false,
+  "error": null
+ },
+ {
+  "text": "any other factors i should be concerned about?",
+  "event": "done",
+  "s": 69.6,
+  "first_ms": 33576,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Based on the data, the key factors for electronics manufacturing in Pune are skilled workers, reliable electricity, and industrial areas. However, there are a few other aspects worth considering:\n\n- **Ultra-pure water treatment**: Essential for certain electronics processes.\n- **Power quality and backup**: Important for maintaining production.\n- **Air-cargo access**: Facilitates quick delivery of components and products.\n- **Clean-room and anti-static build cost**: Necessary for sensitive electronics manufacturing.\n- **E-waste and chemical clearances**: Compliance with environmental regulations.\n\nGeneral advice:\n- **Licenses and Permits**: Ensure you have all necessary permits for electronics manufacturing.\n- **Supplier Network**: Look for local suppliers for components and services.\n- **Infrastructure**: Consider the availability of advanced infrastructure like ultra-pure water and clean rooms.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what all might be required?",
+  "event": "done",
+  "s": 43.4,
+  "first_ms": 17493,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 4,
+   "numbers_supported": 4
+  },
+  "answer": "Based on the ranking, Nashik stands out as the top district for food and beverages in Maharashtra, with a score of 91.7. It excels in farm produce, with 5.2 million tons annually, and has a diverse range of 12 crops, along with 31% irrigated farmland.\n\nGeneral advice:\n- Ensure compliance with FSSAI licenses and food safety audits.\n- Invest in cold storage and packing materials to maintain product quality.\n- Focus on distribution to major markets to maximize reach.\n- Consider the support from potential food parks and schemes.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what else should I consider",
+  "event": "done",
+  "s": 70.9,
+  "first_ms": 18648,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Based on the data, you should consider the following:\n\n- **Village Milk-Collection Network:** Ensure there is a robust network to collect milk from farmers efficiently.\n- **Bulk Milk Chilling:** The ability to chill milk quickly to maintain quality.\n- **Cold Chain to City Markets:** Effective transportation to keep milk fresh for distribution.\n- **FSSAI Licence and Lab Testing:** Compliance with food safety regulations and quality control.\n- **Skilled Workers:** While not a top factor, having skilled workers can enhance efficiency.\n- **Infrastructure:** Focus on good roads and electricity supply, which are not heavily weighted in the ranking but are crucial for operations.\n\nGeneral advice:\n- Prioritize building strong relationships with local farmers for a steady supply of raw milk.\n- Invest in technology for better milk quality and safety.\n- Explore partnerships with local suppliers for additional support.\n- Ensure the area has a reliable power supply to maintain cold chain operations.\n- Consider the cost of land and its availability for potential expansion.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "any other factors i should be concerned about?",
+  "event": "done",
+  "s": 36.4,
+  "first_ms": 281,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Based on the data, the key factors for electronics manufacturing in Pune are skilled workers, reliable electricity, and industrial areas. However, there are a few additional factors worth considering:\n\n- **Ultra-pure water treatment**: Essential for certain electronics processes.\n- **Power quality and backup**: Reliable power is crucial; consider backup options.\n- **Air-cargo access**: Important for importing components and exporting products.\n- **Clean-room and anti-static build cost**: Necessary for maintaining high standards in production.\n- **E-waste and chemical clearances**: Compliance with regulations is important.\n\nGeneral advice:\n- **Licenses and Permits**: Ensure you have all necessary licenses for electronics manufacturing.\n- **Suppliers**: Look for reliable local and international suppliers.\n- **Infrastructure**: Consider the availability of high-speed internet and other tech infrastructure.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ },
+ {
+  "text": "what all might be required?",
+  "event": "done",
+  "s": 24.9,
+  "first_ms": 280,
+  "grounding": {
+   "grounded": true,
+   "refusal": false,
+   "unsupported_numbers": [],
+   "unknown_districts": [],
+   "wrong_directions": [],
+   "numbers_total": 0,
+   "numbers_supported": 0
+  },
+  "answer": "Based on the ranking, Nashik stands out as the best district for food and beverages in Maharashtra, scoring highly in farm produce and crop variety.\n\n- Check for the FSSAI license and food safety audits.\n- Ensure access to cold storage and packing materials.\n- Plan for distribution to major markets.\n- Look into food park and scheme support.\n- Verify the availability of skilled workers and infrastructure.\n\nGeneral advice:\n- Focus on local farm produce and diverse crops.\n- Ensure reliable water supply for irrigation.\n- Leverage the district's strengths in agriculture for your business.",
+  "has_advice": true,
+  "advice_numbers": false,
+  "mentions_need": true,
+  "error": null
+ }
+]

@@ -1,0 +1,20 @@
+{"text": "Yes sir", "expect": "high"}
+{"text": "nahi, not needed", "expect": "low"}
+{"text": "haan, a lot of it", "expect": "critical"}
+{"text": "Correct", "expect": "high"}
+{"text": "we use tons of it", "expect": "critical"}
+{"text": "barely any", "expect": "low"}
+{"text": "I don't think so", "expect": "low"}
+{"text": "not that much honestly", "expect": "low"}
+{"text": "yes that is crucial", "expect": "critical"}
+{"text": "kind of, sometimes", "expect": "high"}
+{"text": "Not yet decided", "expect": "unsure"}
+{"text": "no clue", "expect": "unsure"}
+{"text": "yes, every single day", "expect": "high"}
+{"text": "minimal", "expect": "low"}
+{"text": "yes we export to Dubai", "expect": "high"}
+{"text": "zero", "expect": "low"}
+{"text": "heavily, yes", "expect": "critical"}
+{"text": "perhaps later", "expect": "unsure"}
+{"text": "it's a must", "expect": "critical"}
+{"text": "occasionally", "expect": "high"}

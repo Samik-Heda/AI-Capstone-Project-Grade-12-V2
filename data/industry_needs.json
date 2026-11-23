@@ -1,0 +1,79 @@
+{
+  "_note": "General guidance per industry on needs the 13 district factors do not measure. Not district data: written from common site-selection practice (2026-10-04), shown as 'Also check (not in our data)'. Each item: need, why, step (a plain next step).",
+  "needs": {
+    "preset:automobile": [
+      {"need": "Tier-1 and tier-2 parts suppliers within a day's drive", "why": "Car and two-wheeler plants run on just-in-time parts deliveries.", "step": "List the auto component clusters (Pune–Chakan, Aurangabad) you would buy from and time the drive."},
+      {"need": "Large flat plot with room to expand", "why": "Assembly lines, test tracks and vendor parks need space that grows with volume.", "step": "Ask MIDC for plots of the size you need and whether adjoining land can be reserved."},
+      {"need": "Heavy-truck access for finished vehicles", "why": "Car carriers need wide roads and turning space from the gate to the highway.", "step": "Drive the route from the plot to the highway in a large vehicle."},
+      {"need": "ITI-trained technicians and welders", "why": "Shop floors depend on fitters, welders and machine operators.", "step": "Meet the nearest ITIs about apprentice batches."},
+      {"need": "Paint-shop pollution clearance", "why": "Paint shops need consent from the Maharashtra Pollution Control Board (MPCB).", "step": "Ask MPCB which category your plant falls in and how long consent takes."}
+    ],
+    "preset:electronics": [
+      {"need": "Ultra-pure water treatment", "why": "Chip and circuit-board making uses very clean water; ordinary supply must be treated on site.", "step": "Get a quote for an on-site water purification plant sized to your process."},
+      {"need": "Power quality and backup", "why": "Even short dips or spikes can ruin a batch, so stable voltage and backup power matter more than hours of supply.", "step": "Ask MSEDCL about dedicated feeders and budget for UPS and generator backup."},
+      {"need": "Air-cargo access", "why": "Components and finished electronics are light and valuable, so they often fly.", "step": "Check the drive time to Pune, Mumbai or Nagpur cargo terminals."},
+      {"need": "Clean-room and anti-static build cost", "why": "Clean rooms and static-safe floors add a lot to construction cost and time.", "step": "Get a builder's estimate for the clean-room class you need."},
+      {"need": "E-waste and chemical clearances", "why": "Etching chemicals and electronic scrap need MPCB permission and authorised disposal.", "step": "Ask MPCB about consent and find an authorised e-waste recycler nearby."}
+    ],
+    "preset:general_manufacturing": [
+      {"need": "Job-work and repair shops nearby", "why": "Machining, tooling and repair services keep downtime low.", "step": "Visit the local industrial estate and list machine shops you could use."},
+      {"need": "Clear land title and approvals", "why": "Disputed titles and slow building approvals delay projects for months.", "step": "Have a lawyer check the title and ask the planning office about approval times."},
+      {"need": "Raw-material suppliers", "why": "Steel, plastics or other inputs are cheaper when bought nearby.", "step": "Get quotes from suppliers in the district and from the nearest big city."},
+      {"need": "Factory licence and safety approvals", "why": "Factories need a licence and fire and safety approvals before starting.", "step": "Ask the District Industries Centre (DIC) for the approval checklist."}
+    ],
+    "preset:textile": [
+      {"need": "Cotton or yarn supply", "why": "Spinning and weaving units depend on steady cotton or yarn prices and supply.", "step": "Talk to local ginning units and yarn traders about prices through the year."},
+      {"need": "Effluent treatment for dyeing", "why": "Dyeing and processing need a common or own effluent treatment plant and MPCB consent.", "step": "Ask whether a textile park with a common effluent plant is nearby."},
+      {"need": "Large semi-skilled workforce", "why": "Garment and weaving units employ many machine operators, often women.", "step": "Ask the local employment office and garment units about wages and worker availability."},
+      {"need": "Textile-park incentives", "why": "State textile policy offers extra support in some talukas and parks.", "step": "Check the Maharashtra textile policy for your taluka's category."}
+    ],
+    "preset:sugar_ethanol": [
+      {"need": "Assured cane area and crushing licence", "why": "Sugar mills need enough cane within a short haul and follow distance rules between mills.", "step": "Ask the Sugar Commissioner's office about cane availability and licence rules for the area."},
+      {"need": "Water for crushing season", "why": "Mills and distilleries use a lot of water during the crushing months.", "step": "Ask the irrigation department about water allocation for industry."},
+      {"need": "Ethanol offtake contract", "why": "Ethanol is sold mainly to oil marketing companies under blending contracts.", "step": "Check current oil company tenders and prices for ethanol."},
+      {"need": "Distillery effluent handling", "why": "Spent wash needs zero-liquid-discharge treatment and MPCB consent.", "step": "Get a quote for effluent treatment and ask MPCB about conditions."}
+    ],
+    "preset:dairy": [
+      {"need": "Village milk-collection network", "why": "A dairy depends on daily collection from many farmers.", "step": "Talk to local milk co-operatives and collection centres about supply and price."},
+      {"need": "Bulk milk chilling", "why": "Milk must be chilled within hours of milking.", "step": "Plan chilling centres along your collection routes."},
+      {"need": "Cold chain to city markets", "why": "Milk products need refrigerated trucks to reach buyers fresh.", "step": "Get quotes from refrigerated transporters to your main markets."},
+      {"need": "FSSAI licence and lab testing", "why": "Food safety licensing and quality testing are required for dairy products.", "step": "Apply for an FSSAI licence and find a nearby food testing lab."}
+    ],
+    "preset:food_beverages": [
+      {"need": "FSSAI licence and food-safety audits", "why": "Every packaged food unit needs a food safety licence, and buyers often ask for audits.", "step": "Apply for an FSSAI licence early; it is needed before selling."},
+      {"need": "Cold storage and packing material", "why": "Fresh inputs and finished products often need cold storage and good packaging nearby.", "step": "List cold stores and packaging suppliers within an hour's drive."},
+      {"need": "Distribution to big markets", "why": "Packaged food sells mainly in cities, so delivery time and cost matter.", "step": "Work out the trucking time and cost to Mumbai, Pune or your main market."},
+      {"need": "Food park and scheme support", "why": "Mega food parks and central and state schemes can cut setup cost.", "step": "Check for a food park nearby and the PM Formalisation of Micro Food Enterprises scheme if you are small."}
+    ],
+    "preset:agro_cold": [
+      {"need": "Mandi and farmer access", "why": "Processing and storage depend on buying produce from nearby markets and farmers.", "step": "Visit the local APMC market and farmer producer companies."},
+      {"need": "Reliable power for cold rooms", "why": "Cold storage fails if power cuts last long, so backup power is essential.", "step": "Budget for a generator or solar backup sized for your cold rooms."},
+      {"need": "Seasonal labour", "why": "Sorting and grading peak during harvest months.", "step": "Ask local contractors about labour availability in peak season."},
+      {"need": "Subsidies for cold storage", "why": "Central and state schemes support cold storage and pack houses.", "step": "Check the horticulture mission and agri-infrastructure fund rules."}
+    ],
+    "preset:pharma": [
+      {"need": "Drug manufacturing licence and GMP", "why": "Medicines need a licence from the state drug regulator and good manufacturing practice certification.", "step": "Talk to the FDA Maharashtra office about the licence process and timelines."},
+      {"need": "Pharma-grade water and clean rooms", "why": "Purified water and controlled clean areas are required for most products.", "step": "Get quotes for a purified water system and clean-room build."},
+      {"need": "Effluent and solvent handling", "why": "Bulk drug and chemical steps need effluent treatment and MPCB consent.", "step": "Ask MPCB which category applies and whether a common effluent plant is nearby."},
+      {"need": "Trained chemists and quality staff", "why": "Quality control and production need science graduates and pharmacists.", "step": "Contact nearby pharmacy and science colleges about recruitment."}
+    ],
+    "preset:chemicals": [
+      {"need": "Chemical zone and safety clearances", "why": "Chemical units are usually allowed only in notified chemical zones with strict safety approvals.", "step": "Ask MIDC which nearby estates allow chemical units."},
+      {"need": "Effluent and hazardous-waste disposal", "why": "Units need treatment plants and an authorised hazardous-waste disposal site.", "step": "Find the nearest common hazardous-waste facility and check MPCB consent terms."},
+      {"need": "Raw materials by port or pipeline", "why": "Many chemicals arrive in bulk by ship or tanker.", "step": "Work out the tanker cost from JNPA or the nearest bulk supplier."},
+      {"need": "Fire and emergency services", "why": "Fire safety approval and a nearby fire station are required.", "step": "Ask the local fire office about approval and response times."}
+    ],
+    "preset:plastics_rubber": [
+      {"need": "Polymer and rubber raw-material supply", "why": "Resin and rubber prices change often, and nearby distributors cut stock costs.", "step": "List polymer distributors within a day's drive and compare prices."},
+      {"need": "Moulds and tool rooms", "why": "Moulding units depend on tool rooms for making and repairing moulds.", "step": "Find tool rooms in the district or the nearest city."},
+      {"need": "Plastic-waste rules", "why": "Extended producer responsibility rules apply to plastic packaging makers.", "step": "Check your obligations under the plastic waste management rules."},
+      {"need": "Big buyers nearby", "why": "Auto, packaging and FMCG buyers prefer suppliers close by.", "step": "Talk to two or three buyers about delivery expectations."}
+    ],
+    "preset:logistics": [
+      {"need": "Distance to consumption centres", "why": "Warehouses earn their keep by being a short drive from big buyers and cities.", "step": "Map the drive time to Mumbai, Pune and your main customers."},
+      {"need": "Warehouse zoning and approvals", "why": "Warehousing needs land zoned for it and fire safety approvals.", "step": "Ask the planning office about zoning for warehousing on your plot."},
+      {"need": "24-hour truck movement", "why": "Some city roads restrict truck entry at certain hours.", "step": "Check local truck entry timings on your delivery routes."},
+      {"need": "Inland container depot or rail siding", "why": "Container and rail links lower costs for long-distance freight.", "step": "Find the nearest inland container depot and its rates."}
+    ]
+  }
+}

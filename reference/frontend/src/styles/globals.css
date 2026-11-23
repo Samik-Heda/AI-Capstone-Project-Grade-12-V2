@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base: #0B1120;
+  --bg-surface: #111827;
+  --bg-elevated: #1A2535;
+  --bg-overlay: #1E2D42;
+  --border-subtle: #1F2D3D;
+  --border-active: #2E4060;
+
+  --text-primary: #E2E8F0;
+  --text-secondary: #94A3B8;
+  --text-muted: #475569;
+  --text-accent: #38BDF8;
+
+  --accent-blue: #38BDF8;
+  --accent-teal: #2DD4BF;
+  --accent-amber: #FBBF24;
+  --accent-green: #34D399;
+  --accent-rose: #FB7185;
+  --accent-purple: #A78BFA;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-active);
+  border-radius: 2px;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+  100% { opacity: 0.4; }
+}
+.shimmer {
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Pulse amber for weight changes */
+@keyframes pulseAmber {
+  0% { background-color: transparent; }
+  30% { background-color: rgba(251, 191, 36, 0.15); }
+  100% { background-color: transparent; }
+}
+.pulse-amber {
+  animation: pulseAmber 2s ease-out;
+}
+
+/* Chat streaming cursor */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink {
+  animation: blink 0.8s step-end infinite;
+}
+
+/* Map district transitions */
+.district-path {
+  transition: fill 0.4s ease;
+  cursor: pointer;
+}
+.district-path:hover {
+  filter: brightness(1.3);
+}

@@ -1,0 +1,40 @@
+{"text": "yes", "expect": "high"}
+{"text": "Yes, a lot", "expect": "critical"}
+{"text": "yeah we do", "expect": "high"}
+{"text": "no", "expect": "low"}
+{"text": "not really", "expect": "low"}
+{"text": "not much", "expect": "low"}
+{"text": "very little", "expect": "low"}
+{"text": "hardly any", "expect": "low"}
+{"text": "I'm not sure", "expect": "unsure"}
+{"text": "don't know yet", "expect": "unsure"}
+{"text": "maybe", "expect": "unsure"}
+{"text": "skip", "expect": "unsure"}
+{"text": "definitely", "expect": "high"}
+{"text": "absolutely, it's essential", "expect": "critical"}
+{"text": "yes, huge amounts", "expect": "critical"}
+{"text": "of course", "expect": "high"}
+{"text": "nope", "expect": "low"}
+{"text": "no, we sell only locally", "expect": "low"}
+{"text": "not at all", "expect": "low"}
+{"text": "some, but not a lot", "expect": "low"}
+{"text": "yes, mostly for exports", "expect": "critical"}
+{"text": "it's very important for us", "expect": "critical"}
+{"text": "we will, yes", "expect": "high"}
+{"text": "sure", "expect": "high"}
+{"text": "yep", "expect": "high"}
+{"text": "nah", "expect": "low"}
+{"text": "rarely", "expect": "low"}
+{"text": "we don't need that", "expect": "low"}
+{"text": "it depends on the season", "expect": "unsure"}
+{"text": "no idea", "expect": "unsure"}
+{"text": "yes, all day long", "expect": "critical"}
+{"text": "probably", "expect": "high"}
+{"text": "a bit", "expect": "high"}
+{"text": "a great deal", "expect": "critical"}
+{"text": "never", "expect": "low"}
+{"text": "only a small amount", "expect": "low"}
+{"text": "yes please", "expect": "high"}
+{"text": "plenty", "expect": "critical"}
+{"text": "it does, quite often", "expect": "high"}
+{"text": "hard to say right now", "expect": "unsure"}

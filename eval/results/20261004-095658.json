@@ -1,0 +1,214 @@
+{
+  "timestamp": "2026-10-04 09:56:58",
+  "phase": 10,
+  "gates": [
+    {
+      "phase": 10,
+      "metric": "[P10a] ask / what-if / needs / stale-flag unit tests",
+      "value": "82 passed in 2.33s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] question / what-if / command routing (70 rows)",
+      "value": "1.000",
+      "target": "≥ 0.95",
+      "passed": true,
+      "baseline": "blind first run 0.914"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] weight changes from questions or what-ifs before Apply",
+      "value": 0,
+      "target": "0",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] routing p95 (ms, n=70)",
+      "value": 37.21,
+      "target": "< 100",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] P4 intent accuracy unchanged (held-out 115; chat → ask accepted)",
+      "value": "0.974",
+      "target": "≥ 0.92",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] adversarial FP / silent switches / wrong-direction modifiers (all P4 sets)",
+      "value": "0 / 0 / 0",
+      "target": "0 / 0 / 0",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10a] the user's 2026-10-04 transcript replays (semiconductors, workers, questions)",
+      "value": "1 passed, 81 deselected in 0.13s",
+      "target": "pass",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] 3B answers finished (20 questions)",
+      "value": "20/20",
+      "target": "≥ 18",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] numbers supported / unknown districts in 3B answers",
+      "value": "0.923 of 13 / 0",
+      "target": "≥ 0.97 / 0",
+      "passed": false,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] 3B answer first token p50 (ms, timeouts counted at 15 s)",
+      "value": 1310,
+      "target": "< 8000",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] 'what else / other factors' answers mention a curated need (4)",
+      "value": "4/4",
+      "target": "100%",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] general advice without numbers (20 answers with advice)",
+      "value": "19/20",
+      "target": "≥ 95%",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10b] Tell me more (7B): finished, slowest, numbers supported (5 questions)",
+      "value": "5/5, 75.8 s, 4/4",
+      "target": "all, < 150 s, ≥ 0.97",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] what-if previews equal a non-committing re-rank (15)",
+      "value": "15/15",
+      "target": "100%",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] curated industry needs cover every preset (4–6 each)",
+      "value": "12/12",
+      "target": "12/12",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] brief has 'Also check before investing' for every preset",
+      "value": "12/12",
+      "target": "12/12",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: brief unit tests",
+      "value": "15 passed in 2.18s",
+      "target": "all green",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: deterministic brief sections, build time max (ms, 5 profiles)",
+      "value": 1.7,
+      "target": "< 300",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: print stylesheet hides the app and prints only the brief",
+      "value": "yes",
+      "target": "yes",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: brief requests route to the brief",
+      "value": "3/3",
+      "target": "3/3",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: AI paragraphs shown that pass the groundedness check (20 of 20 paragraphs AI)",
+      "value": "20/20",
+      "target": "100%",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: numeric claims supported in AI paragraphs, before fallback",
+      "value": "1.000 of 47",
+      "target": "≥ 0.97",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: full brief time, slowest of 5 (s, qwen2.5:7b-instruct, AC)",
+      "value": "95.6 ([93.8, 95.6, 84.9, 85.7, 81.1])",
+      "target": "< 180",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10c] P9d: a chat note asked 12 s into a brief runs between its paragraphs (30 s note limits)",
+      "value": "note done, waited 12.3 s, done at 36.7 s; brief 94.6 s (~23.6 s per paragraph)",
+      "target": "done before the brief; wait < 1 paragraph",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10d] §19 UI walkthrough steps 26–29 at 1280x720, 0 console errors",
+      "value": "4/4",
+      "target": "4/4, 0 errors",
+      "passed": true,
+      "baseline": "—"
+    },
+    {
+      "phase": 10,
+      "metric": "[P10d] §19 UI walkthrough steps 26–29 at 1920x1080, 0 console errors",
+      "value": "4/4",
+      "target": "4/4, 0 errors",
+      "passed": true,
+      "baseline": "—"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+ "_note": "Real-world district concentrations (spec §6.2). Used ONLY for evaluation, never for scoring. Mumbai City and Mumbai Suburban are excluded (no industrial land). Keys match the 12 preset keys (§6.1). The former apparel list was a subset of textile and the ethanol list was identical to sugar, so both were folded in. Plastics & Rubber has no ground truth (face-validity review in STAGE_LOG).",
+ "automobile": [
+  "Pune",
+  "Aurangabad",
+  "Nashik",
+  "Nagpur",
+  "Raigad"
+ ],
+ "electronics": [
+  "Pune",
+  "Aurangabad",
+  "Thane",
+  "Raigad",
+  "Nagpur"
+ ],
+ "general_manufacturing": [
+  "Pune",
+  "Thane",
+  "Raigad",
+  "Nashik",
+  "Aurangabad",
+  "Nagpur"
+ ],
+ "textile": [
+  "Thane",
+  "Kolhapur",
+  "Solapur",
+  "Nashik",
+  "Nagpur",
+  "Amravati",
+  "Dhule",
+  "Sangli"
+ ],
+ "sugar_ethanol": [
+  "Kolhapur",
+  "Pune",
+  "Ahmednagar",
+  "Solapur",
+  "Sangli",
+  "Satara"
+ ],
+ "dairy": [
+  "Ahmednagar",
+  "Pune",
+  "Kolhapur",
+  "Sangli",
+  "Satara",
+  "Solapur"
+ ],
+ "food_beverages": [
+  "Pune",
+  "Nashik",
+  "Satara",
+  "Ratnagiri",
+  "Jalgaon",
+  "Kolhapur",
+  "Sangli",
+  "Nagpur"
+ ],
+ "agro_cold": [
+  "Nashik",
+  "Jalgaon",
+  "Pune",
+  "Ahmednagar",
+  "Solapur",
+  "Satara",
+  "Kolhapur",
+  "Sangli"
+ ],
+ "pharma": [
+  "Pune",
+  "Thane",
+  "Raigad",
+  "Aurangabad",
+  "Palghar",
+  "Nagpur"
+ ],
+ "chemicals": [
+  "Raigad",
+  "Palghar",
+  "Thane",
+  "Ratnagiri",
+  "Pune"
+ ],
+ "logistics": [
+  "Thane",
+  "Raigad",
+  "Pune",
+  "Nagpur",
+  "Nashik"
+ ]
+}

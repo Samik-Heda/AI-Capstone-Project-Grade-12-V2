@@ -1,0 +1,42 @@
+{"text": "What is the literacy rate of Kerala?", "expect": "refusal"}
+{"text": "Who is the prime minister of India?", "expect": "refusal"}
+{"text": "Compose a haiku about Sangli", "expect": "refusal"}
+{"text": "What's the temperature in Nanded right now?", "expect": "refusal"}
+{"text": "Will interest rates fall next year?", "expect": "refusal"}
+{"text": "How many tourists visit Aurangabad each year?", "expect": "refusal"}
+{"text": "which state has the cheapest land, Gujarat or Telangana?", "expect": "refusal"}
+{"text": "Tell me a story about a factory", "expect": "refusal"}
+{"text": "What is the per capita income of Mumbai?", "expect": "refusal"}
+{"text": "Who is the MLA of Baramati?", "expect": "refusal"}
+{"text": "What will the population of Pune be in 2040?", "expect": "refusal"}
+{"text": "Is it going to rain in Ratnagiri tomorrow?", "expect": "refusal"}
+{"text": "Give me a recipe for misal pav", "expect": "refusal"}
+{"text": "Which cricket team is from Mumbai?", "expect": "refusal"}
+{"text": "What is the unemployment rate in Amravati?", "expect": "refusal"}
+{"text": "Are property prices going up in Thane?", "expect": "refusal"}
+{"text": "best district in Tamil Nadu for electronics", "expect": "refusal"}
+{"text": "What's the news in Nagpur today?", "expect": "refusal"}
+{"text": "How do I register a company in India?", "expect": "refusal"}
+{"text": "Write an essay on Maharashtra industry", "expect": "refusal"}
+{"text": "what was the GST collection last year", "expect": "refusal"}
+{"text": "Can you book me a train to Pune?", "expect": "refusal"}
+{"text": "Which party rules Maharashtra?", "expect": "refusal"}
+{"text": "What is the elevation of Mahabaleshwar?", "expect": "refusal"}
+{"text": "Who is the richest person in Pune?", "expect": "refusal"}
+{"text": "what is the exchange rate of the rupee", "expect": "refusal"}
+{"text": "forecast power demand in Nagpur for 2028", "expect": "refusal"}
+{"text": "Write a limerick about sugar", "expect": "refusal"}
+{"text": "What's the cost of a flat in Pune?", "expect": "refusal"}
+{"text": "which country is best for manufacturing?", "expect": "refusal"}
+{"text": "why isn't Kolhapur first?", "expect": "in_scope"}
+{"text": "what does Pune lack compared to Nashik?", "expect": "in_scope"}
+{"text": "explain Satara's ranking", "expect": "in_scope"}
+{"text": "which district has the most water?", "expect": "in_scope"}
+{"text": "is Thane better than Raigad for chemicals?", "expect": "in_scope"}
+{"text": "rank all districts", "expect": "in_scope"}
+{"text": "what's the weakest district?", "expect": "in_scope"}
+{"text": "how good is Jalgaon for food processing?", "expect": "in_scope"}
+{"text": "make power more important", "expect": "in_scope"}
+{"text": "tell me why Nagpur scores low", "expect": "in_scope"}
+{"text": "what about Wardha?", "expect": "in_scope"}
+{"text": "are there districts with cheap land?", "expect": "in_scope"}

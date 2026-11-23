@@ -1,0 +1,50 @@
+{"text": "we are a mid-sized trucking and warehousing outfit", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "a parcel delivery startup", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "our company distributes medicines to chemists", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:logistics", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a company that manufactures tractors", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "snack food company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "we make paneer and curd for hotels", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a powerloom owner wants to expand", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["company", "adversarial"]}
+{"text": "a firm that makes fasteners for automobiles", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "printing company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "detergent maker", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "tyre company", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["company"]}
+{"text": "beer brewery", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "frozen chicken nuggets", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "tomato sauce bottling", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "oilseed crushing", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "dal and pulses mill", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "denim and shirting fabric", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "sportswear and gym clothes", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:textile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "motorcycle helmets", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:automobile", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "inverters and UPS systems", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "hydraulic presses", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "eye drops and ointments", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:pharma", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "sulphuric acid plant", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:chemicals", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "distillery making ENA", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:sugar_ethanol", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "cold storage chain for vaccines and pharma", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:agro_cold", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "corrugated sheets and boxes", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "plastic pipes and fittings", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "rubber mats", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "ice cream parlour chain's central kitchen", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:dairy", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "jaggery", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:sugar_ethanol", "expect_modifiers": {}, "tags": ["product"]}
+{"text": "port matters most to us", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "we import raw material by ship", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "high", "crop_output": "high"}, "tags": ["port"]}
+{"text": "seaport access is a top priority", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "port distance doesn't bother us", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "we sell only in the domestic market, no exports", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "low"}, "tags": ["port", "negation"]}
+{"text": "remove port from the calculation", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "exclude"}, "tags": ["port"]}
+{"text": "slightly less focus on ports", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"port": "low"}, "tags": ["port"]}
+{"text": "an international airport nearby is important", "ctx_profile": "preset:general_manufacturing", "expect_kind": "chat", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "transportation cost is a worry", "ctx_profile": "preset:general_manufacturing", "expect_kind": "chat", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "sports shoes factory", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:plastics_rubber", "expect_modifiers": {}, "tags": ["port", "adversarial"]}
+{"text": "electronics plant, port is essential", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:electronics", "expect_modifiers": {"port": "critical"}, "tags": ["port"]}
+{"text": "food park near JNPT with good water", "ctx_profile": null, "expect_kind": "suggest_preset", "expect_profile": "preset:food_beverages", "expect_modifiers": {"port": "high", "water": "high"}, "tags": ["port"]}
+{"text": "rail is important but port isn't", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"rail": "high", "port": "low"}, "tags": ["port", "negation"]}
+{"text": "highways matter more than anything", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"highway": "high"}, "tags": ["modifier"]}
+{"text": "we can't compromise on power supply", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"power": "critical"}, "tags": ["modifier"]}
+{"text": "land prices are irrelevant", "ctx_profile": "preset:general_manufacturing", "expect_kind": "adjust", "expect_profile": "preset:general_manufacturing", "expect_modifiers": {"land": "low"}, "tags": ["negation"]}
+{"text": "compare Jalgaon with Dhule", "ctx_profile": "preset:general_manufacturing", "expect_kind": "compare", "expect_profile": "preset:general_manufacturing", "expect_modifiers": null, "tags": ["compare"]}
+{"text": "uranium processing", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}
+{"text": "a petrol pump", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}
+{"text": "limestone crushing unit", "ctx_profile": null, "expect_kind": "clarify", "expect_profile": null, "expect_modifiers": null, "tags": ["clarify"]}

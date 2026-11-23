@@ -1,0 +1,1230 @@
+{
+ "timestamp": "2026-10-04 10:46:37",
+ "llm": true,
+ "passed": 143,
+ "total": 148,
+ "headline": [
+  {
+   "label": "Mean P@5, 11 presets",
+   "value": "0.764",
+   "target": "≥ 0.70",
+   "pass": true
+  },
+  {
+   "label": "Intent accuracy, held out",
+   "value": "0.974",
+   "target": "≥ 0.92",
+   "pass": true
+  },
+  {
+   "label": "Modifier F1",
+   "value": "1.000",
+   "target": "≥ 0.92",
+   "pass": true
+  },
+  {
+   "label": "Grounded AI notes",
+   "value": "1.000",
+   "target": "≥ 0.90",
+   "pass": true
+  },
+  {
+   "label": "Profile auto-pick",
+   "value": "0.95",
+   "target": "≥ 0.90",
+   "pass": true
+  },
+  {
+   "label": "/rank p95 (ms)",
+   "value": "7.21",
+   "target": "< 50",
+   "pass": true
+  }
+ ],
+ "gates": [
+  {
+   "phase": 0,
+   "metric": "pytest",
+   "value": "541 passed in 9.36s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 0,
+   "metric": "/health p50 (ms)",
+   "value": "5.57",
+   "target": "< 20",
+   "passed": true,
+   "baseline": "~2000"
+  },
+  {
+   "phase": 0,
+   "metric": "Ollama reachable via 127.0.0.1",
+   "value": "True (http://127.0.0.1:11434)",
+   "target": "true",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 0,
+   "metric": "narration model pulled (qwen2.5:3b-instruct)",
+   "value": "True",
+   "target": "true",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "districts seeded",
+   "value": "36",
+   "target": "36",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "norm range",
+   "value": "[0.000, 1.000]",
+   "target": "within [0,1]",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "registry fields with status",
+   "value": "13 {'Sourced': 1, 'Derived': 1, 'Estimated': 11}",
+   "target": "13, all with status",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "port distance centroid source",
+   "value": "polygon",
+   "target": "polygon",
+   "passed": true,
+   "baseline": "HQ town"
+  },
+  {
+   "phase": 1,
+   "metric": "Raigad port norm ≥ Ratnagiri",
+   "value": "1.000 (49.6 km) vs 1.000 (35.1 km)",
+   "target": "Raigad ≥ Ratnagiri",
+   "passed": true,
+   "baseline": "Ratnagiri #1 (1 km)"
+  },
+  {
+   "phase": 1,
+   "metric": "transform/normalization unit tests",
+   "value": "17 passed in 0.14s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "map districts (unique ids)",
+   "value": "36 (36 unique)",
+   "target": "36 unique",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 1,
+   "metric": "centroids.csv rows",
+   "value": "36",
+   "target": "36",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 2,
+   "metric": "scoring/API unit tests",
+   "value": "81 passed in 2.11s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 2,
+   "metric": "invalid weights → 422 (neg/NaN/zero/inf/unknown/empty)",
+   "value": "6/6",
+   "target": "all 422",
+   "passed": true,
+   "baseline": "negative accepted (375/100)"
+  },
+  {
+   "phase": 2,
+   "metric": "responses with 36 entries",
+   "value": "32/32",
+   "target": "all",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 2,
+   "metric": "metro ineligible (all presets)",
+   "value": "12/12",
+   "target": "12/12",
+   "passed": true,
+   "baseline": "Mumbai #1 auto/electronics"
+  },
+  {
+   "phase": 2,
+   "metric": "stability p95 (ms, N=240)",
+   "value": "1.16",
+   "target": "< 30",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 2,
+   "metric": "/rank p95 (ms)",
+   "value": "7.21",
+   "target": "< 50",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 2,
+   "metric": "strengths with norm < 0.6",
+   "value": "0 of 928 (12 presets × 36)",
+   "target": "0",
+   "passed": true,
+   "baseline": "bottom-quartile literacy listed"
+  },
+  {
+   "phase": 3,
+   "metric": "profile unit tests",
+   "value": "44 passed in 1.71s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "presets (one list)",
+   "value": "12: automobile, electronics, general_manufacturing, textile, sugar_ethanol, dairy, food_beverages, agro_cold, pharma, chemicals, plastics_rubber, logistics",
+   "target": "12, as in §6.1",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "mean P@5 (11 GT-backed)",
+   "value": "0.764",
+   "target": "≥ 0.70",
+   "passed": true,
+   "baseline": "0.57"
+  },
+  {
+   "phase": 3,
+   "metric": "every P@5",
+   "value": "min 0.60 (sugar_ethanol); automobile 0.8 electronics 0.8 general_manufacturing 0.8 textile 0.8 sugar_ethanol 0.6 dairy 0.6 food_beverages 1.0 agro_cold 1.0 pharma 0.8 chemicals 0.6 logistics 0.6",
+   "target": "each ≥ 0.60",
+   "passed": true,
+   "baseline": "steel preset 0.0"
+  },
+  {
+   "phase": 3,
+   "metric": "mean hit@10 (11 GT-backed)",
+   "value": "0.962",
+   "target": "≥ 0.90",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "distinctness (mean ρ over 66 pairs)",
+   "value": "0.8896",
+   "target": "≤ 0.92",
+   "passed": true,
+   "baseline": "0.967"
+  },
+  {
+   "phase": 3,
+   "metric": "dominance (max top-5 appearances, reported)",
+   "value": "12 of 12 (Pune 12, Nashik 12)",
+   "target": "report (2026-10-01 sign-off)",
+   "passed": true,
+   "baseline": "Mumbai #1 auto/electronics"
+  },
+  {
+   "phase": 3,
+   "metric": "max preset pairwise cosine",
+   "value": "0.942 (dairy/food_beverages)",
+   "target": "< 0.95",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "presets with a rationale",
+   "value": "12/12",
+   "target": "all",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "tuning within ±0.05 of §6.1",
+   "value": "max |Δ| 0.040",
+   "target": "≤ 0.05 per field",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "Plastics & Rubber face-validity review logged",
+   "value": "yes",
+   "target": "logged",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 3,
+   "metric": "resource-bound presets",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "steel preset"
+  },
+  {
+   "phase": 4,
+   "metric": "language/session unit tests",
+   "value": "85 passed in 2.53s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "embedding tier ready (calibrated τ/δ)",
+   "value": "True (717 exemplars, τ=0.62, δ=0.06)",
+   "target": "true",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy (held-out 115 of 163 rows)",
+   "value": "0.974 (calib split 1.000)",
+   "target": "≥ 0.92",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "modifier micro-F1",
+   "value": "1.000 (tp 39, fp 0, fn 0)",
+   "target": "≥ 0.92",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "negation pass",
+   "value": "11/11",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "adversarial FP (16 rows)",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "carpets→auto, important→port"
+  },
+  {
+   "phase": 4,
+   "metric": "clarify recall",
+   "value": "13/13",
+   "target": "100%",
+   "passed": true,
+   "baseline": "unknown → silent general"
+  },
+  {
+   "phase": 4,
+   "metric": "conversation scripts",
+   "value": "11/11",
+   "target": "11/11",
+   "passed": true,
+   "baseline": "context lost"
+  },
+  {
+   "phase": 4,
+   "metric": "router p95, rule path (ms, n=154)",
+   "value": "15.7",
+   "target": "< 100",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "router p95, embedding tier (ms, n=9, cold)",
+   "value": "53.07",
+   "target": "< 400",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy, dev (tuning) (61 rows)",
+   "value": "1.000",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy, holdout 2 (60 rows)",
+   "value": "0.950",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy, holdout 3 (60 rows)",
+   "value": "0.967",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy, holdout 4 (50 rows)",
+   "value": "0.960",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "intent accuracy, holdouts 2–4 pooled (170 rows)",
+   "value": "0.959",
+   "target": "≥ 0.92",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "silent preset switches (394 rows, all sets)",
+   "value": "0",
+   "target": "0 (every change via Apply)",
+   "passed": true,
+   "baseline": "industry switched on any mention"
+  },
+  {
+   "phase": 4,
+   "metric": "wrong-direction modifiers (all sets)",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 4,
+   "metric": "embeddings offline: accuracy, server errors",
+   "value": "0.939, 0 errors",
+   "target": "≥ 0.85, 0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "narration unit tests",
+   "value": "47 passed in 2.13s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "out-of-scope refused, dev set",
+   "value": "28/28 refused, 12/12 in-scope kept",
+   "target": "100%, 0 false refusals",
+   "passed": true,
+   "baseline": "GDP/poem/weather → ranked or adjusted"
+  },
+  {
+   "phase": 5,
+   "metric": "out-of-scope refused, holdout set",
+   "value": "30/30 refused, 12/12 in-scope kept",
+   "target": "100%, 0 false refusals",
+   "passed": true,
+   "baseline": "GDP/poem/weather → ranked or adjusted"
+  },
+  {
+   "phase": 5,
+   "metric": "false refusals on P4 corpora + dialogs (420 turns)",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "Ollama offline: templated replies, server errors",
+   "value": "30/30 templated, 0 errors, narrate → ['error']/['error'], dialogs 11/11",
+   "target": "100%, 0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "narrated responses (qwen2.5:3b-instruct, warm=True, 60 s idle first, report)",
+   "value": "24/24",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "fully grounded responses",
+   "value": "1.000",
+   "target": "≥ 0.90",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "numeric claims supported",
+   "value": "1.000 of 22",
+   "target": "≥ 0.97",
+   "passed": true,
+   "baseline": "ranked #0"
+  },
+  {
+   "phase": 5,
+   "metric": "wrong direction claims, compare takeaways",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "compare text contradicted its table"
+  },
+  {
+   "phase": 5,
+   "metric": "wrong direction claims, all tasks (report)",
+   "value": "0",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "refusal (out-of-scope prompts)",
+   "value": "6/6",
+   "target": "6/6",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "first token p50, warm (ms, 10 s between prompts, timeouts counted)",
+   "value": "2431.0",
+   "target": "< 3000",
+   "passed": true,
+   "baseline": "28–37 s"
+  },
+  {
+   "phase": 5,
+   "metric": "full response p90 (ms)",
+   "value": "6533",
+   "target": "< 20000",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 5,
+   "metric": "chat-suite routing (kind as expected)",
+   "value": "30/30",
+   "target": "30/30",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "UI walkthrough steps 1–14 (headless chrome.exe)",
+   "value": "1280x720 14/14; 1920x1080 14/14",
+   "target": "14/14 at both resolutions",
+   "passed": true,
+   "baseline": "industry switch ignored; reset swapped profile; popup stale"
+  },
+  {
+   "phase": 6,
+   "metric": "console errors/warnings from app code",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "map recolor p95 (ms, response → next frame + 200 ms fill, n=44)",
+   "value": "322",
+   "target": "< 300",
+   "passed": false,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "slider drag → re-ranked map p95 (ms, last input → next frame, n=56)",
+   "value": "120",
+   "target": "< 200",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "no numbers or input boxes on weight controls; plain labels (DOM)",
+   "value": "pass",
+   "target": "both resolutions",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "popup values equal /district (DOM vs API)",
+   "value": "pass",
+   "target": "both resolutions",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "open popup re-fetches on weights change (DOM vs API)",
+   "value": "pass",
+   "target": "both resolutions",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "all 36 districts clickable, incl. both Mumbai",
+   "value": "pass",
+   "target": "both resolutions",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 6,
+   "metric": "no dangerouslySetInnerHTML/innerHTML (eslint: src clean, probe rejected)",
+   "value": "src clean=True, probe errors=2",
+   "target": "clean, ≥ 2",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "builder/CRUD/save-from-chat/cluster tests",
+   "value": "18 passed in 2.05s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "profile corpus: preset auto-pick (20 rows, embeddings=True)",
+   "value": "0.95 (wrong: [13])",
+   "target": "≥ 0.90",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "profile corpus: rows passing (§14.3 rule)",
+   "value": "0.95 (fail: [13])",
+   "target": "≥ 0.90",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "negated fields below their starting-preset value",
+   "value": "4/4",
+   "target": "100%",
+   "passed": true,
+   "baseline": "\"land does not matter\" gave land 64%"
+  },
+  {
+   "phase": 7,
+   "metric": "rows annotated top-1 with that field first (report)",
+   "value": "2/4 [2, 12]",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "draft latency p95 (ms, API round trip)",
+   "value": "8.0",
+   "target": "< 600",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "conversation scripts 4, 5, 9, 10",
+   "value": "4/4",
+   "target": "4/4",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "clusters: k by silhouette in [3,6], unique labels and colors",
+   "value": "k=3 silhouette=0.364 (tried {'3': 0.364, '4': 0.31, '5': 0.335, '6': 0.329})",
+   "target": "k ∈ [3,6], unique",
+   "passed": true,
+   "baseline": "duplicate cluster labels; colors repeat for k > 4"
+  },
+  {
+   "phase": 7,
+   "metric": "clusters: unique labels and colors for every k = 3…6",
+   "value": "pass",
+   "target": "all",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "UI walkthrough steps 15–20 (step 20 with Ollama unreachable)",
+   "value": "1280x720 6/6; 1920x1080 6/6",
+   "target": "6/6 at both resolutions",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 7,
+   "metric": "console errors/warnings, steps 1–20",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 8,
+   "metric": "all P0–P7 gates still pass (83 gates)",
+   "value": "1 fail: ['P6 map recolor p95 (ms, response → next frame + 200 ms fill, n=44)']",
+   "target": "all",
+   "passed": false,
+   "baseline": "—"
+  },
+  {
+   "phase": 8,
+   "metric": "README matches the code (API routes, ports, Ollama URL, models)",
+   "value": "match",
+   "target": "match",
+   "passed": true,
+   "baseline": "docs contradicted the code"
+  },
+  {
+   "phase": 8,
+   "metric": "About and §4.7 limitations served to the Data modal",
+   "value": "3 about, 4 limitations",
+   "target": "4 limitations",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 8,
+   "metric": "demo script (§16), 3 consecutive runs, live Ollama, 0 console errors",
+   "value": "run 1 9/9; run 2 8/9 [(2, 'takeaway: unavailable: AI note unavailable (timeout).')]; run 3 8/9 [(2, 'takeaway: unavailable: AI note unavailable (timeout).')]",
+   "target": "3 × 9/9",
+   "passed": false,
+   "baseline": "—"
+  },
+  {
+   "phase": 8,
+   "metric": "fresh clone → usable UI, cold (npm install, seed, servers, map drawn)",
+   "value": "UI never became usable",
+   "target": "< 120 s",
+   "passed": false,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9a] LLM lane unit tests (serialised, busy, abandoned, JSON)",
+   "value": "7 passed in 1.89s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9a] full pytest suite",
+   "value": "541 passed in 9.07s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9a] /api/message server time p95 (ms, n=163)",
+   "value": "10.77",
+   "target": "< 100",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9a] two notes at once, live (30 s limits): both finish, second waits its turn",
+   "value": "['done', 'done'] wait_ms [0, 5961]",
+   "target": "done, done; 2nd waited",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] advisor unit tests",
+   "value": "82 passed in 0.82s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] questions asked only when an answer changes the top 3 (20 scenarios)",
+   "value": "58/58 questions, 20 sessions asked",
+   "target": "all, 20 scenarios",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] repeated questions / sessions over 3 questions",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] state changes before Apply (answer / keep turns)",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] tip shown iff the rule holds (147 ranking replies, 8 tip scenarios)",
+   "value": "147/147",
+   "target": "all",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] short-answer lexicon accuracy, dev (40 phrasings)",
+   "value": "1.000",
+   "target": "≥ 0.95",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] short-answer lexicon accuracy, holdout (20 phrasings)",
+   "value": "1.000",
+   "target": "≥ 0.95",
+   "passed": true,
+   "baseline": "holdout blind first run 0.800"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] follow-up / advisor chips route to the intended kind",
+   "value": "158/158",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9b] /api/message server time p95 with advisor (ms, n=178)",
+   "value": "10.55",
+   "target": "< 100",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] interpret unit tests (validation, triggers, mocked endpoint, model choice)",
+   "value": "53 passed in 1.79s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] P4 intent accuracy unchanged (held-out 115)",
+   "value": "0.974",
+   "target": "≥ 0.92",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] silent preset switches, P4 corpus",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] suite rows routed to the LLM fallback or read by the rules (54)",
+   "value": "54/54",
+   "target": "all",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] industry accuracy, dev (23 rows, qwen2.5:7b-instruct)",
+   "value": "0.913 wrong [('we wash vegetables all day so we need loads of water', None, ['agro_cold', 'food_beverages']), ('bamboo sticks for incense, my uncle does it', None, ['general_manufacturing'])]",
+   "target": "≥ 0.80",
+   "passed": true,
+   "baseline": "3B dev 0.739"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] industry accuracy, holdout (23 rows, qwen2.5:7b-instruct)",
+   "value": "0.913 wrong [('mattresses and pillows', 'general_manufacturing', ['textile']), ('sewing needles and safety pins', 'textile', ['general_manufacturing'])]",
+   "target": "≥ 0.75",
+   "passed": true,
+   "baseline": "dev blind 0.739 (3B); holdout blind 0.913 (7B)"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] indirect answers read correctly (7 rows, report; prompt tuned on these)",
+   "value": "1.000",
+   "target": "report",
+   "passed": true,
+   "baseline": "blind 2/3 → 3/7 after routing fixes"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] silent state changes after an LLM reading",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] invalid/empty output adds no message; errors",
+   "value": "0 mismatches, 1 errors",
+   "target": "0, 0",
+   "passed": false,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] interpret latency p50 / p90 (ms, n=53, qwen2.5:7b-instruct warm)",
+   "value": "3065 / 3921",
+   "target": "< 8000 / < 15000",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9c] industry accuracy with the 3B model only (dev+holdout, report)",
+   "value": "0.630, p50 1604 ms",
+   "target": "report",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] brief unit tests",
+   "value": "15 passed in 1.88s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] deterministic brief sections, build time max (ms, 5 profiles)",
+   "value": "2.9",
+   "target": "< 300",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] print stylesheet hides the app and prints only the brief",
+   "value": "yes",
+   "target": "yes",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] brief requests route to the brief",
+   "value": "3/3",
+   "target": "3/3",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] AI paragraphs shown that pass the groundedness check (20 of 20 paragraphs AI)",
+   "value": "20/20",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] numeric claims supported in AI paragraphs, before fallback",
+   "value": "1.000 of 48",
+   "target": "≥ 0.97",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] full brief time, slowest of 5 (s, qwen2.5:7b-instruct, AC)",
+   "value": "78.9 ([75.9, 78.9, 72.5, 71.3, 62.2])",
+   "target": "< 180",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9d] a chat note asked 12 s into a brief runs between its paragraphs (30 s note limits)",
+   "value": "note done, waited 2.6 s, done at 22.4 s; brief 73.3 s (~18.3 s per paragraph)",
+   "target": "done before the brief; wait < 1 paragraph",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9e] §18 UI walkthrough steps 21–25 at 1280x720, 0 console errors",
+   "value": "5/5",
+   "target": "5/5, 0 errors",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 9,
+   "metric": "[P9e] §18 UI walkthrough steps 21–25 at 1920x1080, 0 console errors",
+   "value": "5/5",
+   "target": "5/5, 0 errors",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] ask / what-if / needs / stale-flag unit tests",
+   "value": "82 passed in 2.43s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] question / what-if / command routing (70 rows)",
+   "value": "1.000",
+   "target": "≥ 0.95",
+   "passed": true,
+   "baseline": "blind first run 0.914"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] weight changes from questions or what-ifs before Apply",
+   "value": "0",
+   "target": "0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] routing p95 (ms, n=70)",
+   "value": "20.61",
+   "target": "< 100",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] P4 intent accuracy unchanged (held-out 115; chat → ask accepted)",
+   "value": "0.974",
+   "target": "≥ 0.92",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] adversarial FP / silent switches / wrong-direction modifiers (all P4 sets)",
+   "value": "0 / 0 / 0",
+   "target": "0 / 0 / 0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10a] the user's 2026-10-04 transcript replays (semiconductors, workers, questions)",
+   "value": "1 passed, 81 deselected in 0.13s",
+   "target": "pass",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] 3B answers finished (20 questions)",
+   "value": "20/20",
+   "target": "≥ 18",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] numbers supported / unknown districts in 3B answers",
+   "value": "1.000 of 21 / 0",
+   "target": "≥ 0.97 / 0",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] 3B answer first token p50 (ms, timeouts counted at 15 s)",
+   "value": "537",
+   "target": "< 8000",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] 'what else / other factors' answers mention a curated need (4)",
+   "value": "4/4",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] general advice without numbers (16 answers with advice)",
+   "value": "16/16",
+   "target": "≥ 95%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10b] Tell me more (7B): finished, slowest, numbers supported (5 questions)",
+   "value": "5/5, 70.9 s, 4/4",
+   "target": "all, < 150 s, ≥ 0.97",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] what-if previews equal a non-committing re-rank (15)",
+   "value": "15/15",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] curated industry needs cover every preset (4–6 each)",
+   "value": "12/12",
+   "target": "12/12",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] brief has 'Also check before investing' for every preset",
+   "value": "12/12",
+   "target": "12/12",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: brief unit tests",
+   "value": "15 passed in 2.13s",
+   "target": "all green",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: deterministic brief sections, build time max (ms, 5 profiles)",
+   "value": "2.7",
+   "target": "< 300",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: print stylesheet hides the app and prints only the brief",
+   "value": "yes",
+   "target": "yes",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: brief requests route to the brief",
+   "value": "3/3",
+   "target": "3/3",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: AI paragraphs shown that pass the groundedness check (19 of 20 paragraphs AI)",
+   "value": "19/19",
+   "target": "100%",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: numeric claims supported in AI paragraphs, before fallback",
+   "value": "1.000 of 51",
+   "target": "≥ 0.97",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: full brief time, slowest of 5 (s, qwen2.5:7b-instruct, AC)",
+   "value": "79.7 ([79.7, 66.4, 58.5, 66.3, 65.4])",
+   "target": "< 180",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10c] P9d: a chat note asked 12 s into a brief runs between its paragraphs (30 s note limits)",
+   "value": "note done, waited 2.6 s, done at 25.0 s; brief 77.0 s (~19.3 s per paragraph)",
+   "target": "done before the brief; wait < 1 paragraph",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10d] §19 UI walkthrough steps 26–29 at 1280x720, 0 console errors",
+   "value": "4/4",
+   "target": "4/4, 0 errors",
+   "passed": true,
+   "baseline": "—"
+  },
+  {
+   "phase": 10,
+   "metric": "[P10d] §19 UI walkthrough steps 26–29 at 1920x1080, 0 console errors",
+   "value": "4/4",
+   "target": "4/4, 0 errors",
+   "passed": true,
+   "baseline": "—"
+  }
+ ]
+}
